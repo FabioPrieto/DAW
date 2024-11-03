@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vocabularios xmlns:t="mensajeria" xmlns:c="comida">
+  <t:carta>
+    <remite>Jose</remite>  
+    <destino>
+      <nombre>Ana</nombre>    
+      <direccion>Ronda del Carmen 202</direccion>
+    </destino>
+    <texto>Espero te encuentres bien ....</texto>
+  </t:carta>
+  <c:carta tipo="primeros">
+    <restaurante></restaurante>  
+    <proteina gramos="">salmon</proteina>
+    <hidrato gramos="">patata</hidrato>
+    <hidrato gramos="">lechuga</hidrato>
+    <grasas gramos="">aceite de oliva</grasas>
+    <bebida>agua</bebida>
+    <bebida marca="abadía da cova">vino blanco</bebida>
+  </c:carta>
+</vocabularios>

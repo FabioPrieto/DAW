@@ -1,0 +1,20 @@
+ul{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 0px;
+    width: 300px;
+    background-color:rgba(99, 97, 97, 0.212);
+}
+li{
+    width: 100%;
+    list-style-position: inside;
+    list-style-image: url(flecha_inactiva.png);
+    font-size: 24px;
+}
+.borde{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+li:hover{
+    list-style-image:url(flecha_activa.png);
+}

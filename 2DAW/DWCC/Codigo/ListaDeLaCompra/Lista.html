@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Mi lista de la compra</h2>
+        <form action="">
+            <input type="text" name="" id="Input">
+            <input type="button" onclick="AñadirElemento()" value="Añadir a la lista">
+            <input type="button" onclick="EliminarTodo()" value="Borrar lista">
+        </form>
+        <ul id="Lista"></ul>
+    </div>
+    <script>
+        var ListaCompra = [];
+
+        function AñadirElemento(){
+            let value = document.getElementById("Input").value;
+
+            if(value != ''){
+                const ListaLista = document.getElementById("Lista");
+                const nuevoElemento = document.createElement("li");
+                nuevoElemento.appendChild(document.createTextNode(value));
+                ListaLista.appendChild(nuevoElemento);
+
+                ListaCompra.push(value);
+
+                document.getElementById("Input").value = '';
+                
+            }
+        }
+
+        function EliminarTodo(){            
+            const ListaLista = document.getElementById("Lista");
+
+            ListaLista.innerHTML="";
+
+            ListaCompra.length = 0;
+
+        }
+
+    </script>
+</body>
+</html>

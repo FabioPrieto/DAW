@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Stock Biblioteca-->
+<!-- Etiqueta raiz-->
+<biblioteca> <!--Coleccion de todos los libros-->
+  <libros> <!--Libro especifico -->
+    <libro genero="terror" anho="1845">
+      <autor estado="muerto">Edgar Allan Poe</autor>
+      <nombre>Cuentos de terror</nombre>
+      <precio> 15&#8364;</precio>
+      <sinopsis>&quot;Edgar Allan Poe escribió algunos de los mejores relatos de terror de la historia de la literatura, entre ellos, 
+      los tres cuentos recopilados en este libro: &quot;El pozo y el péndulo&quot;, &quot;El corazón delator&quot; y &quot;El gato negro&quot;.
+       En algunas de sus historias, 
+        Poe introduce un elemento sobrenatural, característico de la novela gótica, que es el que produce en los protagonistas priemro desasosiego y finalmente el más absoluto terror.&quot;</sinopsis>
+    </libro>
+    <libro genero="Thriller" anho="2019">
+      <autor estado="vivo">Ledicia Costas</autor>
+      <nombre>Infamia</nombre>
+        <precio> 13&#8364;</precio>
+     <sinopsis>&quot;Emma Cruz es abogada y profesora de derecho penal. Se traslada al pequeño pueblo gallego de Merlo para impartir clases en la universidad, sin saber que ese lugar está marcado por la desgracia.
+         Su llegada coincide con el veinticinco aniversario de la desaparición de las hermanas Giraud, a quien parece que se las haya tragado la tierra. Así, Emma descubrirá que los habitantes de Merlo guardan secretos inconfesables. ¿Qué fue de las hermanas Giraud? ¿Están muertas? Y si es así, ¿quién fue el responsable
+         y por qué nunca encontraron sus cuerpos?&quot;</sinopsis>
+    </libro>
+    <libro genero="terror" anho="1917">
+      <autor estado="muerto">Lovecraft</autor>
+      <nombre>La tumba</nombre>
+        <precio> 9&#8364;</precio>
+      <sinopsis>&quot;Jervas Dudley, un soñador y visionario, adinerado, negado para los estudios e inepto en el trato social, reside ahora en un manicomio. Es aquí donde, ciñéndose a los sucesos sin entrar a analizar las causas, cuenta su historia.&quot;</sinopsis>
+    </libro>
+  </libros>
+</biblioteca>

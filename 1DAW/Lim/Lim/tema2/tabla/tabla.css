@@ -1,0 +1,41 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+img {
+  float: left;
+}
+.amarillo {
+  background-color: bisque;
+}
+.azul {
+  background-color: rgba(220, 236, 245, 0.795);
+}
+.rojo {
+  background-color: red;
+}
+.gris {
+  background-image: url(/Lim/img/img/fondo_gris.gif);
+}
+.recreo {
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
+.tabla2 {
+  width: 500px;
+}
+.tabla2 td {
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 5px;
+}
+.recreo p {
+  margin: 8px;
+  padding: 0%;
+  font-size: 20px;
+}

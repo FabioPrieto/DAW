@@ -1,0 +1,25 @@
+*************** INICIO ******************
+
+En esta web nos centraremos en revisar estos puntos:
+
+Blog sobre pesca
+Información sobre mi
+Vídeos de pesca
+Contacto
+
+*************** BLOG ******************
+
+Lorem ipsum dolor sit amet
+
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam pellentesque enim blandit enim bibendum blandit. Integer eu leo ac est aliquet imperdiet. Quisque nec justo id augue posuere malesuada. Nullam ac metus. Cras non leo ut est placerat condimentum.
+
+
+*************** SOBRE MI ******************
+
+Un pescador es la persona que vive de las capturas de peces y otros animales acuáticos (pesca), ya que captura cantidad suficiente para alimentarse y vender el excedente.
+
+Perteneciente al sector primario, es una profesión que ha existido desde la prehistoria en varias modalidades, básicamente pesca desde costa o en barco.
+
+Se calcula que en el mundo hay más de 30 millones de personas con este oficio. Los técnicos de la piscicultura también se consideran pescadores.
+

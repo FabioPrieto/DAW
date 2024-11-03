@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        sum = 0;
+        cont = 0;
+        med = 0;
+
+        var numeros = [];
+
+        do{
+            n = window.prompt("Escribe números para hacer la media; Si quieres que finalize escribe *");
+
+            if(n!='*'){
+                n = parseFloat(n);
+
+                cont ++;
+                sum += n;
+
+                numeros.push(n);
+
+                
+            }
+        }while(n != '*');
+
+        med = sum / cont;
+
+        window.alert("media: "+med);
+
+        window.alert("Números escritos: \n"+numeros.join('\n'))
+
+    </script>
+</body>
+</html>

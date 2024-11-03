@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>iDESWB</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>¿QUIÉN ERES?</legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="name" id="nombre"><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" name="apellidos" id="apellidos"><br>
+            <label for="nacim">Fecha de nacimiento</label><br>
+            <input type="date" name="Fecha_nac" id="nacim"><br>
+        </fieldset>
+        <fieldset>
+            <legend>¿DE DÓNDE ERES?</legend>
+            <label for="ciudad">Ciudad</label><br>
+            <input type="text" name="city" id="ciudad"><br>
+            <label for="COPO">Codigo Postal</label><br>
+            <input type="text" name="CP" id="COPO"><br>
+            <label for="pais">País</label><br>
+            <select name="Pais" id="pais">
+                <option value="Esp">España</option>
+                <option value="Por">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+            <label for="user">Nombre de usuario</label><br>
+            <input type="text" name="User" id="user"><br>
+            <label for="pass">Contraseña</label><br>
+            <input type="password" name="password" id="pass"><br>
+            <label for="password">Volver a escribir la contraseña</label><br>
+            <input type="password" name="password2" id="password"><br>
+        </fieldset>
+        <fieldset>
+            <legend>CONDICIONES DE REGISTRO</legend>
+            <label for="">Deseo recibir ofertas de IDESWEB</label><br>
+            <input type="radio" name="recibir" value="dia" id="1">
+            <label for="1">Una vez al día</label>
+            <input type="radio" name="recibir" value="semana" id="2">
+            <label for="2">Una vez a la semana</label>
+            <input type="radio" name="recibir" value="mes" id="3">
+            <label for="3">Una vez al mes</label><br>
+            <input type="radio" name="acuerdo" id="acuerdo" required>
+            <label for="acuerdo">Acepta el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label>
+        </fieldset>
+        <div class="centrar">
+            <input type="submit" value="Crear Cuenta" class="boton">
+        </div>
+    </form>
+</body>
+</html>

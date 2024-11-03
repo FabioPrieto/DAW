@@ -1,0 +1,115 @@
+INDEX.HTML
+
+TAREA I - HTML
+Indice de contenidos
+Todos los enlaces se abren en nuevas solapas de navegación
+Los enlaces siguientes me llevan a zonas concretas del documento formatos.html
+Formatos básicos
+Colores
+El siguiente enlace mostrará un documento llamado tablas.html
+Tablas
+Lo sentimos, el siguiente audio no se escuchará si no pinchas el icono para volumen.
+A pesar de estar configurado para que comience su reproducción al mostrar la página
+
+
+*************************************************
+
+
+FORMATOS.HTML
+
+FORMATOS BÁSICOS 
+Fíjate en el siguiente título, está marcado a forma de rotulador pero tiene una fuente de 22px de tamaño
+Modelos
+Cyclowood en su apuesta por la evolucion de las bicicletas en combinación con la madera dispone de diversos modelos de cuadros y bicicletas, y 
+mantiene una apuesta continua por el desarrollo de nuevos modelos.
+Los diferentes productos de Cyclowood (cuadros y bicicletas) se comercializaran en varias tallas que se indican en cada uno de los modelos. 
+Tambien podrá ver más informacion respecto a los acabados, accesorios y complementos de cada uno de ellos.
+Todos los cuadros se someten a un tratamiento que los hace totalmente impermeables, tanto al agua como a la humedad, por lo que su mantenimiento es 
+muy similar a los otros que ya conoces.
+Fabricamos nuestros productos en varios tipos de madera fresno, nogal, cedro... En la pagina de cada modelo podrás ver las opciones disponibles.
+Tienes más información en http://www.cyclowood.com
+Fíjate que el enlace se abre en una nueva solapa y no es de color azul como el resto del texto
+
+Este otro párrafo tiene un tamaño de fuente el doble de grande que el que tiene el navegador por defecto. 
+Sea el navegador que sea y sea el tamaño que sea. También tiene un identificador para aplicar estilos en la cabecera del documento.
+
+Volver al índice
+
+ZONA DE COLORES
+En Cyclowood escuchamos con 
+gran interés la demanda de todo el mundo que nos sigue. Por ello llevamos largo tiempo 
+trabajando para vosotros. Fruto de este trabajo y desarrollo,
+presentamos el modelo que desde siempre nos habéis demandado.
+
+En Cyclowood cada vez que sacamos un modelo lo hacemos con las máximas garantías de
+calidad, en donde se aúnan diseño y respuesta tecnológica. Para ello hemos tenido que 
+realizar infinidad de pruebas y ensayos; tanto de los materiales y materias primas que 
+la componen, como del modelo finalmente elaborado.
+
+La Cyclowood de montaña que ahora presentamos, ha realizado miles de kilómetros, especialmente 
+en las condiciones más adversas del paisaje Gallego, así como en las condiciones climáticas más
+extremas de calor, lluvia y nieve. Somos testigos de sus enormes capacidades, cruzando ríos, 
+cascadas, saltando sobre rocas y todo tipo de accidentes geográficos.
+
+Ahora podemos decir con el máximo orgullo, que tenemos en nuestras manos y a la disposición de 
+todos los amantes de la naturaleza fusionada con la más 
+alta tecnología la Cyclowood que hará que todo aquel que la quiera disfrutar sienta un placer 
+sin límites.
+
+Estamos seguros que en cuanto la pruebes en condiciones extremas te enamorará, 
+su suavidad de manejo, como absorbe los baches, o las irregularidades de cualquier camino por muy malo que este sea; la sensación de seguridad que te 
+ofrece es única, podemos decir, que tras hacer muchos kilómetros la sensación de cansancio no está presente, la querrás seguir disfrutando.
+
+Te damos las gracias por habernos seguido, pero como todas las cosas buenas de la vida han merecido la pena esperar. Finalmente ya puedes disfrutar tu Cyclowood de montaña.
+
+Volver al índice
+Ir a formatos básicos
+
+
+*************************************************
+
+
+TABLAS.HTML
+
+TABLAS
+OJO
+Las imágenes tienen todas el mismo tamaño, sin deformarse. 
+Si se hace clic sobre ellas se mostrarán a tamaño natural en otra solapa de navegación
+La tabla tiene un titular con fondo amarillo y color de fuente la que quieras. fíjate en los bordes de cada celda
+Nuestras mejores ofertas 
+
+TUS BICICLETAS PREFERIDAS (visítanos)
+PRODUCTOS
+MODELOS
+FOTOGRAFIAS
+NOSOTROS
+
+Cyclowood está ubicado en Verin, Orense (España)
+Aquí está nuestro centro de desarrollo y también es aquí donde son elaborados 
+los cuadros de madera Cyclowood. Tambien es donde se realiza el montaje de nuestras 
+bicicletas por personal técnico con alta cualificación usando los componentes mas 
+avanzados y que mejor se adaptan a nuestras bicicletas. Si no se puede visualizar el usuario
+ha de saber su modelo.Cada unidad de Cyclowood lleva grabado un número de identificación (Código) que 
+facilitará la comunicación entre la empresa y los clientes al identificar univocamente a cada cuadro. 
+
+Carretera
+Ciudad
+Montaña
+
+Nuestra empresa fue fundada en 1943 por D. Francisco Fernández Fernández en Vilela (Verín, Orense). A lo largo de sus sesenta y nueve años de existencia sufrio varias ampliaciones, 
+partiendo de un carácter artesanal evoluciona hasta su actual estructura, mostrándose siempre receptiva a las exigencias del entorno y caminando acorde con los tiempos.
+Actualmente, posee unas instalaciones de 5.000 m2 dotados de la más alta tecnología para el tratamiento de la madera. Esta evolución nos ha llevado a afrontar nuevos retos, pero hoy día en Cyclowood 
+estamos ante el desafio mas importante jamás asumido, elaborar las bicicletas de madera más bellas, suaves en rodaje y avanzadas del mercado. 
+Nuestra satisfacción será total cuando los clientes sientan el orgullo de tener una Cyclowood.
+
+NUESTRAS OFERTAS
+Cyclowood presenta su último lanzamiento una bici para los enamorados de disfrutar cada día de su ciudad la Nueva trekking class.
+Estarás deseando que amanezca para poder subirte a tú nuevo y exclusivo modelo, sabiendo que la 
+gente ya no te verá; sino que te mirarán al paso y tú y solo tú podrás disfrutar de la nueva trekking class.
+
+Unicamente podrán ser hechas de madera, ya que la fibra natural absorbe las vibraciones del impacto como ningún otro material al tiempo que mantiene su forma original inalterable.
+Un árbol sano de madera noble puede ser flexado por el viento, pero siempre volverá a su estado natural.
+
+Volver al índice
+Formatos
+Colores

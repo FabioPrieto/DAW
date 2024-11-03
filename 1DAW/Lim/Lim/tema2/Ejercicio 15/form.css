@@ -1,0 +1,23 @@
+.amarillo{
+    background-color: yellow;
+    text-align: center;
+}
+legend{
+    color: rgb(235, 175, 97);
+}
+::placeholder{
+    color: red;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    width: 100%;
+}
+.borde{
+    border: 1px solid black;
+}
+form{
+    margin: 10px;
+}

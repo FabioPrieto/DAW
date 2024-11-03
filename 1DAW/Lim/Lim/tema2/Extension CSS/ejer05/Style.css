@@ -1,0 +1,29 @@
+ul{
+    display: block;
+}
+li{
+    float: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 7%;
+    list-style: none;
+}
+a{
+    color: red;
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    display: block;
+    width: 100%;
+    
+}
+li:hover{
+    background-color: red;
+
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: white;
+}
+

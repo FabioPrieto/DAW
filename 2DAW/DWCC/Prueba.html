@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="fechaActual"></p>
+    
+    <script>
+        /*
+        var fecha = new Date();
+
+        var dia = fecha.getDate();
+        var mes = fecha.getMonth() + 1;
+        var año = fecha.getFullYear();
+
+        if(dia < 10){
+            fechaFormateada = '0' + dia +'-'
+        }else{
+            fechaFormateada = dia +'-'
+        }
+        
+        if(mes < 10){
+            fechaFormateada += '0' + mes +'-'
+        }else{
+            fechaFormateada += mes +'-'
+        }
+
+        fechaFormateada += año;
+
+        document.getElementById("fechaActual").textContent = "La fecha actual es: " + fechaFormateada;
+        */
+       let fecha = new Date();
+       let horas = fecha.getHours();
+       let minutos = fecha.getMinutes();
+       let segundos = fecha.getSeconds();
+       
+
+       if(horas<10){horas='0'+horas;}
+       if(minutos<10){minutos='0'+minutos;}
+       if(segundos<10){segundos='0'+segundos;}
+
+       if(horas>12){horas = horas-12 + 'PM';}else{horas += 'AM';}
+
+       fechaFormateada = horas+':'+minutos+':'+segundos
+
+       let p = document.getElementById('fechaActual');
+
+       p.innerHTML='La fecha actual es: ' + fechaFormateada;
+
+    </script>
+</body>
+</html>

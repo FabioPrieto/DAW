@@ -1,0 +1,48 @@
+Comprueba un disco y muestra un informe de estado.
+
+
+CHKDSK [volumen[[ruta]nombre de archivo]]] [/F] [/V] [/R] [/X] [/I] [/C]
+ [/L[:tama¤o]] [/B] [/scan] [/spotfix]
+
+
+  volumen         Especifica la letra de unidad (seguida por dos puntos),
+                  el punto de montaje o el nombre de volumen.
+  filename         Solo para FAT/FAT32: especifica los archivos en los que
+                      se comprobar  la fragmentaci¢n.
+  /F              Corrige los errores del disco.
+  /V                  Para FAT/FAT32: muestra la ruta de acceso completa y el nombre de cada
+                      archivo en el disco.
+                      Para NTFS: muestra mensajes de limpieza si los hay.
+  /R                  Encuentra sectores defectuosos y recupera la informaci¢n legible
+                      (implica el uso de /F si no se especifica /scan).
+  /L:tama¤o             Solo para NTFS: cambia el tama¤o del archivo de registro al n£mero especificado de
+                      kilobytes. Si no se especifica ning£n tama¤o, muestra
+                      el tama¤o actual.
+  /X                  Obliga al volumen a desmontarse previamente si es necesario.
+                      Ning£n manipulador abierto al volumen ser  v lido
+                      (implica el uso de /F).
+  /I                  Solo para NTFS: realiza una comprobaci¢n menos exhaustiva de
+                      entradas de ¡ndice.
+  /C                  Solo NTFS: omite la comprobaci¢n de ciclos dentro de la
+                      estructura de carpetas.
+  /B                  Solo NTFS: vuelve a evaluar los cl£steres defectuosos del volumen
+                      (implica el uso de /R).
+  /scan               Solo NTFS: ejecuta un examen en l¡nea en el volumen.
+  /forceofflinefix    Solo NTFS: (se debe usar con /scan)
+                      omite todas las reparaciones en l¡nea; todos los defectos encontrados
+                      se ponen en cola para su reparaci¢n sin conexi¢n (es decir, "chkdsk /spotfix").
+  /perf               Solo NTFS: (se debe usar con /scan)
+                      usa m s recursos del sistema para completar un examen lo m s
+                      r pido posible. Esto podr¡a afectar negativamente al rendimiento de otras tareas
+                      que se ejecuten en el sistema.
+  /spotfix            Solo NTFS: ejecuta una correcci¢n puntual en el volumen.
+  /sdcleanup          Solo NTFS: recolecta los elementos no usados en los datos no necesarios del descriptor de seguridad
+                      (implica el uso de /F).
+  /offlinescanandfix  Ejecuta un examen y reparaci¢n sin conexi¢n en el volumen.
+  /freeorphanedchains Solo FAT/FAT32/exFAT: libera las cadenas de cl£ster hu‚rfanas que pueda haber
+                      en lugar de recuperar su contenido.
+  /markclean          Solo FAT/FAT32/exFAT: marca el volumen como limpio si no
+                      se detectan da¤os, incluso aunque no se haya especificado /F.
+
+Los modificadores /I o /C reducen la cantidad de tiempo necesario para ejecutar Chkdsk omitiendo
+ciertas comprobaciones en el volumen.

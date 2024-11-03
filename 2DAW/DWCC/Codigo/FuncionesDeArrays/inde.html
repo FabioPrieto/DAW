@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumentar Tamaño de Imágenes</title>
+    <style>
+        img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aumentar Tamaño de Imágenes</h1>
+
+    <button onclick="aumentarTamaño()">Aumentar</button>
+    <button onclick="aparecer()">Visualizar</button>
+
+    <div id="contenedorImagenes">
+    </div>
+
+    <script>
+        contenedor = document.getElementById("contenedorImagenes");
+        var imagenes = [];
+
+        img1 = document.createElement('img');
+        img1.src = 'imagen1.jpg';
+        img2 = document.createElement('img');
+        img2.src = 'imagen2.jpg';
+        img3 = document.createElement('img');
+        img3.src = 'imagen3.jpg';
+
+        imagenes.push(img1);
+        imagenes.push(img2);
+        imagenes.push(img3);
+
+        function aumentarTamaño() {
+            imagenes.map((imagen) => {
+                const anchoActual = imagen.width;
+                const nuevoAncho = anchoActual * 1.05;
+                imagen.style.width = nuevoAncho + 'px';
+            });
+        }
+        function aparecer(){
+
+            imagenes.map((imagen) =>{
+
+                contenedor.appendChild(imagen);
+
+            })
+        }
+    </script>
+</body>
+</html>

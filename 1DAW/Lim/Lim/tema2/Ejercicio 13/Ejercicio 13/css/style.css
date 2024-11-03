@@ -1,0 +1,77 @@
+/*Index*/
+a{
+    color: orange;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+.mitad{
+    width: 50%;
+    border: 1px black solid;
+    margin: 1px;
+}
+
+/*Formatos*/
+span{
+    background-color: yellow;
+}
+.fondo{
+    background-color: lightgray;
+}
+.fondo p{
+    color: blue;
+}
+.fondo a{
+    color: red;
+}
+.fondo a:hover{
+    color: blue;
+}
+.doble{ /**/
+    font-size: 200%;
+}
+.fondo_azul{
+    background-color: blue;
+    color: aliceblue;
+    text-align: right;
+}
+.fondo_rosa{
+    background-color:rgb(230, 184, 212);
+    color: green;
+    text-align: center;
+}
+/*Tabla*/
+table{
+    border: 1px solid red;
+}
+th,td{
+    border: 1px solid blue;
+}
+.paginita{
+    width: 900px;
+    margin: 0 auto;
+}
+caption{
+    background-color: yellow;
+    color: blue;
+}
+img{
+    width: 120px;
+}
+img:active{
+    width: 100%;
+}
+.izq{
+    float: left;
+}
+.der{
+    float:right;
+}
+.ofertas{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}

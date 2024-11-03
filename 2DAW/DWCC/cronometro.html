@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="crono"></p>
+
+
+    <script>
+        var segundos = prompt("Número de segundos del contador");
+        var p = document.getElementById("crono");
+
+        window.onload = function() {
+            if (segundos == '0' || isNaN(segundos)) {
+                alert("Finalizado");
+            } else {
+                setInterval(crono, 1000);
+            }
+        }
+
+        function crono() {
+            p.innerHTML = segundos;
+            console.log(segundos);
+
+            if (segundos == -1) {
+                alert("Finalizado");
+                clearInterval(interval);
+            } else {
+                segundos--;
+            }
+        }
+    </script>
+</body>
+</html>

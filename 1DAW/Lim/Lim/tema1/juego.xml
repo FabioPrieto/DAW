@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<juego>
+  <pais>
+    <nombre>España</nombre>
+    <nombre_capital>Madrid</nombre_capital>
+    <habitantes>47,35 millones</habitantes>
+    <habitantes_capital>3,223 millones</habitantes_capital>
+    <monedas>
+      <Moneda>Euro</Moneda>
+    </monedas>
+    <idiomas>
+      <idioma_oficial>Castellano</idioma_oficial>
+      <idioma_oficial>Gallego</idioma_oficial>
+      <idioma_oficial>Catalan</idioma_oficial>
+      <idioma_oficial>Valenciano</idioma_oficial>
+      <idioma_oficial>Euskera</idioma_oficial>
+      <idioma_oficial>Aranes</idioma_oficial>
+    </idiomas>
+  </pais>
+<pais>
+    <nombre>Tuvalu</nombre>
+    <nombre_capital>Funafuti</nombre_capital>
+    <habitantes>11.792</habitantes>
+    <habitantes_capital>6.152</habitantes_capital>
+    <monedas>
+      <Moneda>dólar australiano</Moneda>
+    </monedas>
+    <idiomas>
+      <idioma_oficial>Idioma tuvaluano</idioma_oficial>
+    </idiomas>
+  </pais>
+<pais>
+    <nombre>Suiza</nombre>
+    <nombre_capital>Berna</nombre_capital>
+    <habitantes>8,637 millones</habitantes>
+    <habitantes_capital>133.115</habitantes_capital>
+    <monedas>
+      <Moneda>Franco suizo</Moneda>
+      <Moneda>Euro</Moneda>
+    </monedas>
+    <idiomas>
+      <idioma_oficial>alemán</idioma_oficial>
+      <idioma_oficial>francés</idioma_oficial>
+      <idioma_oficial>italiano</idioma_oficial>
+      <idioma_oficial>romanche</idioma_oficial>
+    </idiomas>
+  </pais>
+  <pais>
+    <nombre>islandia</nombre>
+    <nombre_capital>Reikiavik</nombre_capital>
+    <habitantes>366.425</habitantes>
+    <habitantes_capital>122.853</habitantes_capital>
+    <monedas>
+      <Moneda>Corona islandesa</Moneda>
+    </monedas>
+    <idiomas>
+      <idioma_oficial>Islandés</idioma_oficial>
+    </idiomas>
+  </pais>
+  <pais>
+    <nombre>Noruega</nombre>
+    <nombre_capital>Oslo</nombre_capital>
+    <habitantes>5,379 millones</habitantes>
+    <habitantes_capital>634.293</habitantes_capital>
+    <monedas>
+      <Moneda>corona noruega</Moneda>
+    </monedas>
+    <idiomas>
+      <idioma_oficial>noruego</idioma_oficial>
+      <idioma_oficial>sami</idioma_oficial>
+    </idiomas>
+  </pais>
+</juego>

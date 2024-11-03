@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        ciudad = null;
+        temp1 = null;
+        temp2 = null;
+        temp3 = null;
+        cont = 0;
+
+        var temperaturas = new Array();
+
+
+        do{
+            cont++;
+            med = 0;
+            ciudad = window.prompt("Escribe nombrede la ciudad"+cont)
+
+            if(ciudad != '*'){
+                temp1= window.prompt("Escribe la primera temperatura")
+                temp2= window.prompt("Escribe la segunda temperatura")
+                temp3= window.prompt("Escribe la tercera temperatura")
+                
+                temp1 = parseFloat(temp1);
+                temp2 = parseFloat(temp2);
+                temp3 = parseFloat(temp3);
+
+                med = (temp1 + temp2 + temp3)/3;
+                
+                temperaturas[ciudad] = med;
+            }
+
+        }while(ciudad != '*');
+
+        for(let clave in temperaturas) {
+
+            window.alert(clave + ": " + temperaturas[clave]);
+
+        }
+
+    </script>
+</body>
+</html>

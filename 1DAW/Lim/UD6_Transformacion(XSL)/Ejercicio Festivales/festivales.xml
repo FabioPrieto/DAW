@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<festivales>
+	<festival codigo="1">
+		<nombre>Los más grandes</nombre>
+		<fecha>2018-08-15</fecha>
+		<ambito>Estados Unidos</ambito>
+		<lugar>Hotel Beverly Hilton</lugar>
+		<peliculas>
+			<pelicula codigo="1" categoria="drama">
+				<titulo>The Post</titulo>
+				<presupuesto>4444</presupuesto>
+				<estreno>2017-12-28 </estreno>
+			</pelicula>
+			<pelicula codigo="2" categoria="comedia">
+				<titulo>El mago</titulo>
+				<presupuesto>1558</presupuesto>
+				<estreno>2018-07-28 </estreno>
+			</pelicula>
+		</peliculas>
+		<premiados>
+			<premiado>
+				<nombre>Jaz Wear</nombre>
+				<galardon>Mejor diseño</galardon>
+				<importe>1350</importe>
+			</premiado>
+			<premiado>
+				<nombre>Andrés Pérez</nombre>
+				<galardon>Mejor comediante</galardon>
+				<importe>1500</importe>
+			</premiado>
+			<premiado>
+				<nombre>Marisa Martínez</nombre>
+				<galardon>Mejor fotografía</galardon>
+				<importe>1000</importe>
+			</premiado>
+		</premiados>
+	</festival>
+	<festival codigo="2">
+		<nombre>Anillos de Oro</nombre>
+		<fecha>2018-06-31</fecha>
+		<ambito>Reino Unido</ambito>
+		<lugar>Palace Building</lugar>
+		<peliculas>
+			<pelicula codigo="1" categoria="drama">
+				<titulo>Navidad</titulo>
+				<presupuesto>3333</presupuesto>
+				<estreno>2017-10-28 </estreno>
+			</pelicula>
+			<pelicula codigo="2" categoria="comedia">
+				<titulo>El lector</titulo>
+				<presupuesto>3500</presupuesto>
+				<estreno>2018-07-14 </estreno>
+			</pelicula>
+		</peliculas>
+		<premiados>
+			<premiado>
+				<nombre>Juan López</nombre>
+				<galardon>Mejor comediante</galardon>
+				<importe>1500</importe>
+			</premiado>
+			<premiado>
+				<nombre>Marta Iglesias</nombre>
+				<galardon>Mejor fotografía</galardon>
+				<importe>1000</importe>
+			</premiado>
+		</premiados>
+	</festival>
+	<festival codigo="3">
+		<nombre>La brocha perdida</nombre>
+		<fecha>2018-10-31</fecha>
+		<ambito>Italia</ambito>
+		<lugar>Iglú smart Hotel</lugar>
+		<peliculas>
+			<pelicula codigo="1" categoria="drama">
+				<titulo>El coche</titulo>
+				<presupuesto>2456</presupuesto>
+				<estreno>2017-11-02 </estreno>
+			</pelicula>
+			<pelicula codigo="2" categoria="comedia">
+				<titulo>El espectáculo</titulo>
+				<presupuesto>1600</presupuesto>
+				<estreno>2018-08-24 </estreno>
+			</pelicula>
+		</peliculas>
+	</festival>
+</festivales>

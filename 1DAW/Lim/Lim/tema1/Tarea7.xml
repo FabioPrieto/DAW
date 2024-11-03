@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+  <productos>
+    <producto>
+      <nombre>Sudadera Blanca</nombre>
+      <precio>30&#8364;</precio>
+      <marca>nike</marca>
+      <tallas>
+        <talla>M</talla>
+        <talla>L</talla>
+      </tallas>
+      <colores>
+        <color>Blanco</color>
+        <color/>
+      </colores>
+    </producto>
+    <producto>
+      <nombre>Vaqueros</nombre>
+      <precio>20&#8364;</precio>
+      <marca>Bershka</marca>
+      <tallas>
+        <talla>L</talla>
+        <talla>S</talla>
+      </tallas>
+      <colores>
+        <color>Azul oscuro</color>
+        <color>Negro</color>
+      </colores>
+    </producto>
+    <producto>
+      <nombre>Nike Dunk Low Retro</nombre>
+      <precio>157&#8364;</precio>
+      <marca>Nike</marca>
+      <tallas>
+        <talla>43</talla>
+        <talla>44</talla>
+      </tallas>
+      <colores>
+        <color>Olive</color>
+        <color>White</color>
+      </colores>
+    </producto>
+    <producto>
+      <nombre>Nike Kobe 9 Elite</nombre>
+      <precio>825&#8364;</precio>
+      <marca>Nike</marca>
+      <tallas>
+        <talla>42</talla>
+        <talla>39</talla>
+      </tallas>
+      <colores>
+        <color>Roja</color>
+        <color>Blanca</color>
+      </colores>
+    </producto>
+  </productos>
+</tienda>

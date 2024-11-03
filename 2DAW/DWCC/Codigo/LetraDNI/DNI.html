@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function validarDNI(dni) {
+    const formatoDNI = /^[0-9]{8}[A-Za-z]$/;
+
+    if (!formatoDNI.test(dni)) {
+        return "El formato del DNI no es válido.";
+    }
+
+    const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+
+    const numeroDNI = dni.substring(0, 8);
+
+    const indiceLetra = numeroDNI % 23;
+
+    const letraCalculada = letras.charAt(indiceLetra);
+
+    const letraUsuario = dni.charAt(8).toUpperCase();
+
+    if (letraCalculada === letraUsuario) {
+        return "El DNI es válido.";
+    } else {
+        return "El DNI no es válido.";
+    }
+}
+
+const dniUsuario = prompt("Introduce un DNI (formato: 12345678A):");
+const resultado = validarDNI(dniUsuario);
+
+console.log(resultado);
+
+    </script>
+</body>
+</html>

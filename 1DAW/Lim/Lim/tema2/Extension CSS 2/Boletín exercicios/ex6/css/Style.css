@@ -1,0 +1,141 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/fondo.gif);
+    background-repeat: repeat-x;
+    background-color: #F2F5FE;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    float: right;
+    height: 50%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.gris {
+    background-color: rgb(214, 214, 214);
+    color: red;
+    text-align: center;
+    padding: 2px 10px;
+}
+
+.amarillo {
+    background-color: yellow;
+    color: #212e64;
+    text-align: center;
+    padding: 2px 10px;
+}
+
+div.der h2 {
+    margin-left: 19px;
+    color: #212e64;
+    background-color: #a7b2df;
+    padding: 5px 5px 5px 5px;
+}
+
+a {
+    display: block;
+    float: left;
+    padding: 5px 40px 5px 5px;
+    background-color: #31479B;
+    margin-left: 10px;
+    margin-top: 11px;
+    color: #B5C4E3;
+}
+
+a#ahora {
+    color: orange;
+    background-color: white;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+.contenedor {
+    width: 760px;
+    margin: 0 auto;
+}
+
+.cabecera {
+    background-image: url(../img/cabecera.jpg);
+}
+
+.enlaces {
+    background-color: #253575;
+    height: 40px;
+}
+
+.central {
+    float: left;
+    width: 75%;
+    height: 80vh;
+    background-color: white;
+    color: rgb(74, 74, 207);
+}
+
+.der {
+    float: right;
+    width: 25%;
+    height: 80vh;
+    background-color: #DEE5FD;
+}
+
+div.central ul {
+    list-style: decimal;
+}
+
+div.central p {
+    padding-left: 10px;
+}
+
+div.central div {
+    margin: 10px;
+    background-image: url(../img/fondo_articulo.png);
+    background-repeat: no-repeat;
+}
+
+div.central div h2,
+p {
+    margin: 5px;
+}
+
+div.der ul {
+    list-style-image: url(../img/icono_elemento.gif);
+}
+
+div.der ul li:hover {
+    list-style-image: url(../img/icono_elemento_seleccionado.gif);
+}
+
+.centrar {
+    text-align: center;
+}
+
+.central h2 {
+    text-align: center;
+}
+
+.central video {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#centrar {
+    text-align: center;
+}

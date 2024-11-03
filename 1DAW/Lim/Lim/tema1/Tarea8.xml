@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+  <receta comensales="2" principal="Huevos">
+    <nombre>toritlla francesa</nombre>
+    <descripcion>Casca los huevos (2) y colócalos en un cuenco, sálalos y bátelos bien con un tenedor. Añade las 2 cucharadas de leche para que la tortilla francesa quede más jugosa.
+     Pon una cucharadita de aceite a calentar en una sartén, extiéndelo de forma que la base quede bien impregnada. Cuando esté caliente, vierte los huevos batidos, remuévelos un poco.
+     Espera unos 15 segundos hasta que empiecen a cuajarse, en ese momento, con cuidado y suavidad, dobla la tortilla por la mitad.
+      Voltea la tortilla hacia el otro lado.
+      Cuando veas que está a tu gusto, retírala de la sartén y sírvela.
+      Si te resulta más fácil, puedes enrollarla por los 2 extremos, de forma que te quede como un rollito de tortilla. No desesperes si no te sale bien a la primera. La práctica mejora los resultados.</descripcion>
+    <indredientes>
+      <ingrediente >
+        <nombre>huevos</nombre> 
+        <cantidad>4</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>leche</nombre>
+        <cantidad>2 cucharadas</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>aceite</nombre>
+        <cantidad>2 cucharadas</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>sal</nombre>
+        <cantidad>una pizca</cantidad>
+      </ingrediente>
+    </indredientes>
+  </receta>
+  <receta comensales="2" principal="arroz">
+    <nombre>Arroz frito chino estilo chaufa</nombre> 
+    <descripcion>Antes de encender el wok, 
+    debemos cortar todos los ingredientes en trozos pequeños (recordad que en Asia nadie utiliza cuchillos para comer), 
+    además de tener listo el arroz blanco ya cocido y una tortilla francesa de dos huevos. 
+    Cuando tengamos listos todos los ingredientes, echamos aceite de girasol en el wok (si queréis un sabor más asiático podéis usar también aceite de sésamo) y lo encendemos a potencia fuerte.
+     En cuanto el aceite esté caliente, echamos el pollo y las salchichas, salpimentados 
+     Cuando estén bien cocinadas, las retiramos y, en el mismo aceite, echamos toda la verdura, y un poco más de sal y pimienta negra recién molida.
+      Removemos todo bien y, pasado solo un minuto (nos interesa que la verdura esté crujiente), echamos de nuevo el arroz y la carne y un poco más de aceite. 
+      En este momento, es importante que movamos bien el wok, con ayuda también de una espátula, para que el arroz se fría, pero no se pegue. 
+      Pasado medio minuto, echamos salsa de soja por el borde del wok, lo que permite que se caramelice, removemos bien y seguimos cocinando durante aproximadamente medio minuto, hasta que veamos que los granos de arroz están crujientes. 
+    Servimos inmediatamente.</descripcion>
+    <indredientes>
+      <ingrediente >
+        <nombre>arroz</nombre>
+        <cantidad>300g</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>Huevos</nombre>
+        <cantidad>2 </cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>salsa soja</nombre>
+        <cantidad>2 cucharadas</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>Pechuga pollo</nombre>
+        <cantidad>2</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>Salchicha fresca</nombre>
+        <cantidad>3</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>Cebolleta</nombre>
+        <cantidad>4</cantidad>
+      </ingrediente>
+      <ingrediente>
+        <nombre>Pimiento</nombre>
+        <cantidad>1</cantidad>
+      </ingrediente>
+    </indredientes>
+  </receta>
+</recetas>

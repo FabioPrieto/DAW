@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <style>
+    .gris_claro {
+      background-color: lightgray;
+    }
+
+    .texto_blanco {
+      color: white;
+    }
+
+    video {
+      /* height: 70vh;*/
+      width: 100vw;
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav texto_blanco">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#myModalR">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#myModal">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="consultas.html">Administración de usuarios</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ventana modal para Login -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Login</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Correo</label>
+              <div class="input-group">
+                <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                  </svg></span>
+                <input type="email" class="form-control" id="email" placeholder="Correo registrado" name="email">
+              </div>
+
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password:</label>
+              <div class="input-group">
+                <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                  </svg></span>
+                <input type="password" class="form-control" id="pwd" placeholder="Contraseña registrada" name="pswd">
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-success">Login</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <p>No tienes cuenta! <a href="">Registrate aquí</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ventana modal para Registro -->
+  <div class="modal" id="myModalR">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Registrar usuario</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Nombre o nombres">
+              <label for="floatingInput">Nombre o nombres</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="Apellidos">
+              <label for="floatingPassword">Apellidos</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingPassword" placeholder="Tu correo">
+              <label for="floatingPassword">Tu correo</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="contraseña">
+              <label for="floatingPassword">Contraseña</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Confirmar contraseña">
+              <label for="floatingPassword">Confirmar contraseña</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" id="floatingPassword" placeholder="01/01/2000">
+              <label for="floatingPassword">Fecha de nacimiento</label>
+            </div>
+
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Hombre
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Mujer
+              </label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="url" class="form-control" id="floatingPassword" placeholder="URL de imagen de perfil">
+              <label for="floatingPassword">URL de imagen de perfil</label>
+            </div>
+            <button type="button" class="btn btn-success mb-3">Registrarse</button>
+            <button type="button" class="btn btn-secondary mb-3" data-bs-dismiss="modal">Close</button>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+
+        <div class="modal-footer">
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 p-5 gris_claro text-black rounded">
+    <h1 class="display-2">DIW - Diseño de interfaces Web</h1>
+    <p>Crear una interface web para el registro de usuarios</p>
+    <hr />
+    <ul>
+      <li>Login</li>
+      <li>Registro</li>
+      <li>Consultas</li>
+    </ul>
+    <a type="button" class="btn btn-primary" href="consultas.html">Ir a consultas</a>
+  </div>
+  <div class="mt-4">
+    <video controls autoplay="yes">
+      <source src="media/video.mp4" />
+    </video>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

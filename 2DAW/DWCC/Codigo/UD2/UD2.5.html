@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="parrafo"></p>
+    <button id="ruso" onclick="cambiarContenido('доброе утро')">Ruso</button>
+    <button id="ingles" onclick="cambiarContenido('good morning')">Inglés</button>
+    <button id="español" onclick="cambiarContenido('Buenos días')">Español</button>
+
+    <script>
+        function cambiarContenido(texto) {
+            var parrafo = document.getElementById("parrafo");
+            parrafo.innerHTML = "<p>" + texto + "</p>";
+        }
+    </script>
+</body>
+</html>

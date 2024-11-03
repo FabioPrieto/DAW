@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formulario.css">
+    <title>forum</title>
+</head>
+<body>
+    <div class="borde">
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="apellido">Apellidos: </label>
+                <input type="text" name="apellido" id="apellido">
+            </fieldset>
+            <fieldset>
+                <legend>Datos Académicos</legend>
+                <input type="radio" id="primarios" value="Primarios" name="estudios">
+                <label for="primarios"> Primarios</label><br><br>
+                <input type="radio" id="secundarios" value="Secundarios" name="estudios">
+                <label for="secundarios"> Secundarios</label><br><br>
+                <input type="radio" id="bach" value="Bachillerato" name="estudios">
+                <label for="bach"> Bachillerato</label><br><br>
+                <input type="radio" id="uni" value="Universidad" name="estudios">
+                <label for="uni"> Universidad</label><br><br>
+            </fieldset>
+            <br>
+            <div class="contenedor">
+                <input type="submit" value="enviar datos" class="enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

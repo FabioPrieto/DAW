@@ -1,0 +1,26 @@
+h2{
+    text-decoration: underline;
+    color: red;
+}
+li{
+    list-style: none;
+}
+span{
+    color: blue;
+}
+.datos{
+    float: left;
+    width: 30%;
+    height: 136px;
+}
+.formacion{
+    float: left;
+    width: 70%;
+   
+}
+.experiencia{
+    float: left;
+    width: 30%;
+    clear: both;
+    padding-left: 30%;
+}

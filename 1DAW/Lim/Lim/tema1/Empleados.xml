@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+  <empleado>
+    <nombre> &lt;Arsenio&gt; </nombre>
+    <direccion> &quot;Carud 103&quot;</direccion>
+    <empresa> One&amp;One</empresa>
+  </empleado>
+  <empleado>
+    <nombre> &lt;Ana&gt; </nombre>
+    <direccion> &quot;Roberto Baamonde&quot;</direccion>
+    <empresa> Stars&amp;Sun</empresa>
+  </empleado>
+</empleados>

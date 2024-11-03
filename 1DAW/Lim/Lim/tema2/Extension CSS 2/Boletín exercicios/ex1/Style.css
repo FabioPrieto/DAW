@@ -1,0 +1,39 @@
+
+p{
+    text-align: justify;
+}
+li{
+    list-style:square;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.datos{
+    float: left;
+    width: 24%;
+    margin: 0 1%;
+}
+.gordo{
+    float: left;
+    width: 74%;
+}
+.primero{
+    float: left;
+    width: 30%;
+    margin: 0 1%;
+    text-align: justify;
+}
+.segundo{
+    float: left;
+    width: 30%;
+    margin: 0 1%;
+    text-align: justify;
+}
+.tercero{
+    float: left;
+    width: 30%;
+    margin: 0 1%;
+    text-align: justify;
+}

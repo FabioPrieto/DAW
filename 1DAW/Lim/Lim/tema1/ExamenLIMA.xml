@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<departamento_informatica>
+  <direccion>
+    <calle>Praza da lexión</calle>
+    <numero>1</numero>
+    <codigo_postal>32003</codigo_postal>
+    <locaclidad>Ourense</locaclidad>
+    <provincia>Ourense</provincia>
+  </direccion>
+  <empresas_colaboradoras>
+     <empresa>
+      <nombre_empresa>One&amp;One</nombre_empresa>
+      <aportacion>Domino web &quot;carba.com&quot;</aportacion>
+     </empresa> 
+     <empresa>
+      <nombre_empresa>Pans&amp;Company</nombre_empresa>
+      <aportacion>Bocadillos para evento &quot;Hora del código&quot;</aportacion>
+     </empresa> 
+  </empresas_colaboradoras>
+  <cursos>
+    <curso>
+     <nombre_curso>DAW1</nombre_curso>
+     <alumnos>
+      <alumno>
+        <nombre_alumno>Pedro González</nombre_alumno>
+        <dni>12345678A</dni>
+        <modulos>
+          <modulo>
+            <nombre_modulo>Bases de Datos</nombre_modulo>
+            <calificacions>
+               <nota convocatoria="16/17">4</nota>
+               <nota convocatoria="17/18">6</nota> 
+              </calificacions>
+          </modulo>
+          <modulo>
+            <nombre_modulo>Programación</nombre_modulo>
+            <calificacions>
+               <nota convocatoria="16/17">2</nota>
+               <nota convocatoria="17/18">5</nota> 
+              </calificacions>
+          </modulo>
+          <modulo>
+            <nombre_modulo>Lenguajes de Marcas</nombre_modulo>
+            <calificacions>
+               <nota convocatoria="16/17">7</nota>
+              </calificacions>
+          </modulo>
+        </modulos>
+      </alumno>
+      <alumno>
+        <nombre_alumno>Marta Pérez</nombre_alumno>
+        <dni>98765432Z</dni>
+        <modulos>
+          <modulo>
+            <nombre_modulo>Bases de Datos</nombre_modulo>
+            <calificacions>
+               <nota convocatoria="16/17">8</nota>
+              </calificacions>
+          </modulo>
+          <modulo>
+            <nombre_modulo>Lenguajes de Marcas</nombre_modulo>
+            <calificacions>
+               <nota convocatoria="16/17">3</nota>
+               <nota convocatoria="17/18">6</nota> 
+              </calificacions>
+          </modulo>
+        </modulos>
+      </alumno>
+     </alumnos> 
+    </curso>  
+    <curso>
+     <nombre_curso>DAW2</nombre_curso>
+     <alumnos>
+      <alumno>
+       <nombre_alumno>Nuria García</nombre_alumno>
+       <dni>11447722B</dni>
+       <modulos>
+         <modulo>
+           <nombre_modulo>Sistemas informaticos</nombre_modulo>
+           <calificacions>
+             <nota convocatoria="16/17">3</nota>
+             <nota convocatoria="17/18">7</nota>
+           </calificacions>
+         </modulo>
+         <modulo>
+           <nombre_modulo>FOL</nombre_modulo>
+           <calificacions>
+             <nota convocatoria="16/17">9</nota>
+           </calificacions>
+         </modulo>
+       </modulos>
+      </alumno>
+     </alumnos>
+    </curso>
+  </cursos>
+</departamento_informatica>

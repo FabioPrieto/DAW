@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<everest>
+	<empresas>
+		<empresa>
+			<datos_empresa codigo="ME199">
+				<nombre>Mundoexplora</nombre>
+				<telefono>963924097</telefono>
+				<web>www.mundoexplora.com</web>
+				<email>info@mundoexplora.com</email>
+			</datos_empresa>
+			<rutas>
+				<expedicion codigo="EX102">
+					<nombre>Everest cara Norte</nombre>
+					<inicio>2019-06-01</inicio>
+					<duracion medida="días">30</duracion>
+					<itinerario>
+						<dia num="1">Salida de España</dia>
+						<dia num="2" altitud="1300">Katmandú (Nepal). Llegada al aeropuerto. Traslado al hotel. Alojamiento</dia>
+						<dia num="10" altitud="5300">Llegada al Campo Base Norte</dia>
+						<dia num="20" altitud="8850">Cima</dia>
+						<dia num="30">Regreso a España</dia>
+					</itinerario>
+					<precio unidad="euros">
+						<importe>15000</importe>
+						<transferencia cuenta="ES58 0075 0086 9506 0119">Banco Popular</transferencia>
+					</precio>
+					<servicios>
+						<servicio incluido="si">Traslados aeropuerto-hotel-aeropuerto en Katmandú</servicio>
+						<servicio incluido="si">5 noches en hotel 3* Katmandú alojamiento y desayuno</servicio>
+						<servicio incluido="no">Vuelo internacional a Katmandú</servicio>
+						<servicio incluido="no">Tasas aeropuerto</servicio>
+					</servicios>
+					<idiomas>
+						<idioma>Nepalí</idioma>
+						<idioma>Inglés</idioma>
+					</idiomas>
+					<escaladores>
+						<escalador sherpa="no">Andrés Sánchez</escalador>
+						<escalador sherpa="si">Alber Man</escalador>
+						<escalador sherpa="si">Antony Thank</escalador>
+					</escaladores>
+				</expedicion>
+				<expedicion codigo="EX103">
+					<nombre>Everest cara Sur</nombre>
+					<inicio>2019-07-01</inicio>
+					<duracion medida="días">31</duracion>
+					<itinerario>
+						<dia num="1">Salida de España</dia>
+						<dia num="2" altitud="1300">Katmandú (Nepal). Llegada al aeropuerto. Traslado al hotel. Alojamiento</dia>
+						<dia num="10" altitud="5300">Llegada al Campo Base Sur</dia>
+						<dia num="21" altitud="8850">Cima</dia>
+						<dia num="31">Regreso a España</dia>
+					</itinerario>
+					<precio unidad="euros">
+						<importe>15200</importe>
+						<transferencia cuenta="ES58 0075 0086 9506 0119">Banco Popular</transferencia>
+					</precio>
+					<servicios>
+						<servicio incluido="si">Traslados aeropuerto-hotel-aeropuerto en Katmandú</servicio>
+						<servicio incluido="si">5 noches en hotel 3* Katmandú alojamiento y desayuno</servicio>
+						<servicio incluido="no">Vuelo internacional a Katmandú</servicio>
+						<servicio incluido="no">Tasas aeropuerto</servicio>
+					</servicios>
+					<idiomas>
+						<idioma>Nepalí</idioma>
+						<idioma>Inglés</idioma>
+					</idiomas>
+					<escaladores>
+						<escalador sherpa="no">Marta Pérez</escalador>
+						<escalador sherpa="si">Joseph Luis</escalador>
+						<escalador sherpa="si">Elisabeth Taylor</escalador>
+					</escaladores>
+				</expedicion>
+			</rutas>
+		</empresa>
+		<empresa>
+			<datos_empresa codigo="ME225">
+				<nombre>Explora el Tibet</nombre>
+				<telefono>963924555</telefono>
+				<web>www.conoceeltibet.com</web>
+				<email>info@tibetexplora.com</email>
+			</datos_empresa>
+			<rutas>
+				<expedicion codigo="EX102">
+					<nombre>Cara Norte Everest</nombre>
+					<inicio>2019-04-15</inicio>
+					<duracion medida="días">30</duracion>
+					<itinerario>
+						<dia num="1">Salida de España</dia>
+						<dia num="2" altitud="1300">Katmandú (Nepal). Llegada al aeropuerto. Traslado al hotel. Alojamiento</dia>
+						<dia num="10" altitud="5300">Llegada al Campo Base Norte</dia>
+						<dia num="20" altitud="8850">Cima</dia>
+						<dia num="30">Regreso a España</dia>
+					</itinerario>
+					<precio unidad="euros">
+						<importe>14700</importe>
+						<transferencia cuenta="ES59 1175 1186 1106 1119">Banco Santander</transferencia>
+					</precio>
+					<servicios>
+						<servicio incluido="no">Traslados aeropuerto-hotel-aeropuerto en Katmandú</servicio>
+						<servicio incluido="si">5 noches en hotel 3* Katmandú alojamiento y desayuno</servicio>
+						<servicio incluido="no">Vuelo internacional a Katmandú</servicio>
+						<servicio incluido="no">Tasas aeropuerto</servicio>
+					</servicios>
+					<idiomas>
+						<idioma>Nepalí</idioma>
+						<idioma>Inglés</idioma>
+						<idioma>Chino</idioma>
+					</idiomas>
+					<escaladores>
+						<escalador sherpa="no">Ana Calas</escalador>
+						<escalador sherpa="si">Abderramán Sarih</escalador>
+						<escalador sherpa="si">Robert Pierre</escalador>
+					</escaladores>
+				</expedicion>
+				<expedicion codigo="EX103">
+					<nombre>Cara Sur Everest</nombre>
+					<inicio>2018-10-01</inicio>
+					<duracion medida="días">31</duracion>
+					<itinerario>
+						<dia num="1">Salida de España</dia>
+						<dia num="2" altitud="1300">Katmandú (Nepal). Llegada al aeropuerto. Traslado al hotel. Alojamiento</dia>
+						<dia num="10" altitud="5300">Llegada al Campo Base Sur</dia>
+						<dia num="21" altitud="8850">Cima</dia>
+						<dia num="31">Regreso a España</dia>
+					</itinerario>
+					<precio unidad="euros">
+						<importe>14900</importe>
+						<transferencia cuenta="ES58 0075 0086 9506 0119">Banco Popular</transferencia>
+					</precio>
+					<servicios>
+						<servicio incluido="no">Traslados aeropuerto-hotel-aeropuerto en Katmandú</servicio>
+						<servicio incluido="si">5 noches en hotel 3* Katmandú alojamiento y desayuno</servicio>
+						<servicio incluido="no">Vuelo internacional a Katmandú</servicio>
+						<servicio incluido="no">Tasas aeropuerto</servicio>
+					</servicios>
+					<idiomas>
+						<idioma>Nepalí</idioma>
+						<idioma>Inglés</idioma>
+						<idioma>Chino</idioma>
+					</idiomas>
+					<escaladores>
+						<escalador sherpa="no">Ana Calas</escalador>
+						<escalador sherpa="si">Abderramán Sarih</escalador>
+						<escalador sherpa="si">Elliot Yal</escalador>
+					</escaladores>
+				</expedicion>
+			</rutas>
+		</empresa>
+	</empresas>
+	<clientes>
+		<cliente identificacion="dni" numero="35265897Ñ">
+			<nombre>Angel Ronda Ronda</nombre>
+			<telefono tipo="fijo">982565544</telefono>
+		</cliente>
+		<cliente identificacion="dni" numero="12345678A">
+			<nombre>Ana Laredo Lemos</nombre>
+			<telefono tipo="fijo">982558744</telefono>
+		</cliente>
+		<cliente identificacion="cif" numero="B15486540">
+			<nombre>Empresa S.L.</nombre>
+			<telefono tipo="móvil">627256897</telefono>
+		</cliente>
+	</clientes>
+	<historial_expediciones>
+		<expedicion codigo="EX102" empresa="ME199"> 
+			<salida>17/05/2020</salida>
+			<cliente>35265897Ñ</cliente>
+			<incidente>
+				<lugar>Nyalam</lugar>
+				<fecha>2020-05-22</fecha>
+				<hora>15:30:00</hora>
+				<detalles>Cliente regresó al punto de origen por molestias estomacales</detalles>
+			</incidente>
+		</expedicion>
+		<expedicion codigo="EX102" empresa="ME225">
+			<salida>16/07/2021</salida>
+			<cliente>B15486540</cliente>
+			<incidente>
+				<lugar>Nyalam</lugar>
+				<fecha>2021-07-30</fecha>
+				<hora>10:25:00</hora>
+				<detalles>Indisposición de tres participantes por falta de oxígeno</detalles>
+			</incidente>
+		</expedicion>
+		<expedicion codigo="EX103" empresa="ME225">
+			<salida>18/05/2022</salida>
+			<cliente>12345678A</cliente>
+			<incidente>
+				<lugar>Old Tingri</lugar>
+				<fecha>2022-06-03</fecha>
+				<hora>12:45:00</hora>
+				<detalles>Fractura de pierna del cliente</detalles>
+			</incidente>
+		</expedicion>
+	</historial_expediciones>
+</everest>

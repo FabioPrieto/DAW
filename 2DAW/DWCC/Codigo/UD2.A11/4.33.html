@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function filtrarCaracteresNoAlfabeticos(arrayDeCadenas) {
+            // Expresión regular para comprobar si una cadena contiene solo caracteres alfabéticos
+            var regexAlfabeto = /^[a-zA-Z]+$/;
+
+            // Filtrar las cadenas que cumplen con el criterio
+            var cadenasAlfabeticas = arrayDeCadenas.filter(function(cadena) {
+                return !(regexAlfabeto.test(cadena));
+            });
+
+            return cadenasAlfabeticas;
+        }
+
+        // Ejemplo de uso
+        var arrayOriginal = ["Hola", "123", "Mundo", "456", "JavaScript"];
+        var resultadoFiltrado = filtrarCaracteresNoAlfabeticos(arrayOriginal);
+
+        console.log("Array Original:", arrayOriginal);
+        console.log("Resultado Filtrado:", resultadoFiltrado);
+    </script>
+</body>
+</html>

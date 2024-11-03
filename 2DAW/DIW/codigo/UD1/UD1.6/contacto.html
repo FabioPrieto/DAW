@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>Contacto</title>
+</head>
+
+<body>
+    <form class="form">
+        <h2>Contactanos</h2>
+        <p><input placeholder="Nombre" required autofocus></p>
+        <p><input placeholder="Apellidos"></p>
+        <p><input  type="tel" placeholder="Teléfono"></p>
+        <p><input type="text" list="provincias" placeholder="Provincia"></p>
+        <p><input type="email" placeholder="Email"></p>
+        <p><input type="url" placeholder="Escribir la url de tu página web"></p>
+        <p>Intereses:</p>
+        <label for="1">Pelicula 1</label>
+        <input type="checkbox"  id="1" style="width: auto;margin-right: 150px">
+        <label for="2">Pelicula 2</label>
+        <input type="checkbox"  id="2" style="width: auto;margin-right: 150px"> 
+        <br> <br>
+        <label  >¿Quieres recibir informacion vía email?:</label>
+        <input type="radio"> <br>
+        <label  >Color de preferencia:</label>
+        <input type="color"> <br>
+        <label  >¿Te ha gustado la página?:</label>
+        <input type="range"> <br>
+        <label  >Mensaje:</label> <br>
+        <textarea cols="30" rows="10"></textarea> <br>
+        <button>Send Message</button> <br>
+        <!--
+        <div>
+            <span class="fa fa-phone"></span>001 1023 567
+            <span class="fa fa-envelope-o"></span> contact@company.com
+        </div>
+        -->
+        <datalist id="provincias">
+            <option value="Ourense">Ourense</option>
+            <option value="Lugo">Lugo</option>
+        </datalist>
+    </form>
+</body>
+
+</html>

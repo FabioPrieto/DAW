@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <title>ejer 15</title>
+</head>
+
+<body>
+    <div class="borde">
+        <form action="#" method="get">
+            <h1>Oferta de empleo: Programador Web</h1>
+            <p>Rellene los datos para enviar su solicitud de trabajo</p>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre: </label><br />
+                <input type="text" name="nombre" id="nombre" maxlength="50" required /><br />
+                <label for="apellido">Apellido: </label><br />
+                <input type="text" name="apellido" id="apellido" maxlength="50" required /><br />
+                <label for="contraseña">Contraseña</label><br />
+                <input type="password" name="password" id="contraseña" maxlength="8" /><br />
+                <label for="gmail">Gmail: </label><br />
+                <input type="email" name="email" id="gmail" required /><br />
+                <label for="FeNa">Fecha de nacimiento</label><br />
+                <input type="date" name="edad" id="FeNa" min="2000-01-01" />
+                <div>
+                    <p class="amarillo">Sexo</p>
+                    <input type="radio" name="sexo" id="mujer" value="mujer" />
+                    <label for="mujer">Mujer</label><br />
+                    <input type="radio" name="sexo" id="hombre" value="hombre" />
+                    <label for="hombre">Hombre</label>
+                </div>
+                <div>
+                    <p class="amarillo">Lugar de nacimiento</p>
+                    <input type="radio" name="lugar_nac" id="Esp" value="Esp" disabled />
+                    <label for="Esp">España</label><br />
+                    <input type="radio" name="lugar_nac" id="DentroUe" value="DentroUe" disabled />
+                    <label for="DentroUe">Otro pais de la unión Europea</label><br />
+                    <input type="radio" name="lugar_nac" id="FueraUE" value="FueraUE" disabled />
+                    <label for="FueraUE">Otro país fuera de la Unión Europea</label><br />
+                </div>
+                <div>
+                    <p class="amarillo">Idioma habitual</p>
+                    <label for="Idioma">Idioma:</label>
+                    <input type="text" name="idioma" id="Idioma" list="idiomas" />
+                    <datalist id="idiomas">
+                        <option value="Castellano"></option>
+                        <option value="Gallego"></option>
+                        <option value="Ingles"></option>
+                    </datalist>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Provincia Preferida</legend>
+                <p>Selecciona la provincia en la que te gustaria trabajar</p>
+                <select name="Provincias" id="provincias">
+                    <optgroup label="Galicia">
+                        <option value="Coruña">A Coruña</option>
+                        <option value="Lugo">Lugo</option>
+                        <option value="Ourense">Ourense</option>
+                        <option value="Pontevedra">Pontevedra</option>
+                    </optgroup>
+                    <optgroup label="Castilla León">
+                        <option value="Avila">Ávila</option>
+                        <option value="Burgos">Burgos</option>
+                        <option value="Leon">Leon</option>
+                        <option value="Palencia">Palencia</option>
+                        <option value="Salamanca">Salamanca</option>
+                        <option value="Segovia">Segovia</option>
+                        <option value="Soria">Soria</option>
+                        <option value="Valladolid">Valladolid</option>
+                        <option value="Zamora">Zamora</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Cursos</legend>
+                <input type="checkbox" name="drones" id="Drones" />
+                <label for="Drones">Pilotaje de drones</label><br />
+                <input type="checkbox" name="robotica" id="Robot" />
+                <label for="Robot">Robotica</label><br />
+                <input type="checkbox" name="ia" id="IA" />
+                <label for="IA">Intelgencia artificial</label><br />
+                <label for="Tempo">Duracion del curso</label>
+                <input type="number" name="tiempo_curso" id="Tempo" min="3" max="12" value="5" step="2" />
+            </fieldset>
+            <fieldset>
+                <legend>Carta de Recomendación</legend>
+                <textarea name="carta_recomendacion" rows="10"
+                    placeholder="Comenta cualquier cosa que consideres relevante sobre tu candidatura"></textarea>
+            </fieldset>
+            <label for="cv">CV: </label>
+            <input type="file" name="curriculum"  /><br />
+            <div class="contenedor">
+                <input type="submit" value="enviar Información" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

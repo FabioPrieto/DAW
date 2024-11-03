@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label for="username">Nombre de usuario:</label> <br>
+        <input type="text" id="username" name="username" pattern="[a-z]{1,15}" placeholder="Nombre Usuario" title="Ingrese letras minúsculas de menos de 15 caracteres" required> <br>
+        <label for="pass">Contraseña:</label><br>
+        <input type="password" id="pass" name="pass" pattern=".{8,12}" required title="Tiene que ser una contraseña de entre 8 y 12 caracteres" placeholder="Contraseña"><br>
+        <label for="user">Usuario de twitter:</label><br>
+        <input type="text" id="user" name="user" pattern="@?[^ñáéíóúÁÉÍÓÚ]{1,15}" required title="El nombre de usuario no puede llevar ni ñ ni vocales con tilde" placeholder="Nombre twitter"><br>
+        <label for="tel">Telefono:</label><br>
+        <input type="tel" id="tel" name="tel" pattern="[6789][1-9]{8}" required title="El telefono empieza por 6/7/8/9" placeholder="telefono"><br>
+        <label for="FN">Fecha de nacimiento:</label><br>
+        <input type="text" id="FN" name="FN" pattern="(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/[1-9]{4}" required title="La fecha tiene que tener formato dd/mm/aaaa" placeholder="Fecha"><br>
+        <label for="tar">Número de la tarjeta de credito:</label><br>
+        <input type="text" id="tar" name="tar" pattern="[0-9]{13-16}" required title="El numero debe ser entre 13 y 16 digitos" placeholder="Numero tarjeta"><br>
+        <input type="submit" value="eNVIAR">
+    </form>
+</body>
+</html>

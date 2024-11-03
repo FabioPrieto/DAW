@@ -1,0 +1,15 @@
+legend{
+    color: red;
+}
+.borde{
+    border: 1px solid black;
+    width: 480px;
+}
+fieldset{
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

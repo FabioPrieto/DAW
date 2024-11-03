@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<receta dificultad="Media" id="receta-1" personas="4" tiempo="90">
+		<titulo>Raxo o lomo de cerdo a la gallega con patatas o cachelos</titulo>
+		<descripcion><![CDATA[
+			Volvemos a la carga con una de las tapas más ricas de
+			Galicia: Raxo con patatas. Si este año habéis ido de vacaciones por mi
+			tierra y no habéis probado una ración de este manjar tenéis que volver
+			de nuevo, pues si no todas las meigas, que las hay, se echaran sobre
+			vosotros con todo tipo de maldiciones. Fuera bromas, con esta receta
+			tenéis la oportunidad de preparar en vuestras casas uno de las tapas
+			más famosas de Galicia. Sin tonterías de patatas fritas, que en muchos
+			sitios ya son congeladas, os recomiendo en cambio unos buenos cachelos
+			cocidos y que se empapen bien con la grasaza del aceite de freír el
+			lomo de cerdo.
+			El secreto de este plato es conseguir que la carne quede jugosa, suena
+			más fácil de lo que es, y conseguir el adobo exacto para que luego la
+			salsa tenga ese tono oscuro del pimentón. Me encanta que lleve ajo a
+			esgalla (mucho), aunque luego haya que apartarlo, pero lo mejor es
+			poder disfrutar del conjunto de una buena ración que para eso estamos
+			en casa y mojar las patatas cocidas en la salsa, creo que ya os lo
+			estáis imaginando ¿no?
+			Cuando trabajaba en Ofiservice hace muchos años teníamos reuniones una vez
+			al mes en Coruña y el jefe nos llevaba siempre a Casa Manolo,
+			popularmente llamado Raxo do Burgo (Costa da Lonxa, nº 23, O Burgo –
+			Culleredo). Os aseguro que no he probado un raxo igual, ni siquiera
+			este que cocino yo, no sé dónde comprarán la carne o que tipo de adobo
+			le echan pero está exquisito. Mire usted, con una tortilla caldosa,
+			una ensalada llena de aceite a rabiar y una botella de vino de la
+			casa, comíamos como marqueses, desde luego el sitio no es de alto
+			copete. En el Mesón A Cepa tampoco estaba mal, pero mejor en Casa
+			Manolo. Y si os planificáis un poco también podéis ir a Festa do Raxo
+			en Ponteceso, se suele celebrar a principios de Junio y es la leche.
+			Sea el del Burgo, el de Ponteceso o este que os presenta un servidor,
+			no dudéis en prepararlo, os chuparéis los dedos.
+		]]></descripcion>
+		<ingredientes>
+			<ingrediente cantidad="1" medida="kg" nombre="Cinta de lomo de cerdo fresca" />
+			<ingrediente cantidad="6" medida="unidades" nombre="Dientes de ajo" />
+			<ingrediente cantidad="1" medida="cuchara" nombre="Pimentón dulce" />
+			<ingrediente cantidad="1" medida="cuchara" nombre="Pimentón picante" />
+			<ingrediente cantidad="1" medida="cuchara" nombre="Orégano" />
+			<ingrediente cantidad="1" medida="cuchara" nombre="Perejil picado" />
+			<ingrediente cantidad="200" medida="ml" nombre="Vino blanco" />
+			<ingrediente cantidad="4" medida="pizca" nombre="Sal fina" />
+			<ingrediente cantidad="200" medida="ml" nombre="Aceite de oliva" />
+		</ingredientes>
+		<pasos>
+			<paso accion="Limpiar el raxo" orden="1">
+				A mí el raxo me gusta que lleve poca grasa, por eso suelo limpiarlo en
+				casa muy bien. Muchos de vosotros pensaréis que estoy loco, que el
+				tocinazo le va que ni pintado a esta receta, pero a mí la grasa que me
+				gusta es de un buen aceite de oliva virgen extra, si voy a mojar en la
+				salsa que sea de calidad.
+			</paso>
+			<paso accion="Cortar carne" orden="2">
+				En primer lugar debemos cortar la cinta de lomo en filetes de unos 3 cm
+				de ancho y luego esos filetes en tacos pequeños de unos 3 o 4 cm
+				aproximadamente, siempre con un buen cuchillo y a mano, nada de
+				máquinas ni picadoras.
+			</paso>
+			<paso accion="Aderezar" orden="3">
+				Echamos los trozos de carne a un bol grande y aderezamos. Para el adobo
+				vamos a emplear ajo fileteado muy fino (luego se va a tostar en el
+				sartén y quedará super rico), perejil y orégano picado, una pizca de
+				pimentón (a mí me gusta mezcla dulce-picante), 10 cucharadas de aceite
+				de oliva virgen extra, sal al gusto y un vaso de vino blanco.
+			</paso>
+			<paso accion="Dejar reposar" orden="4">
+				Removemos todo muy bien con una cuchara de madera, para integrar bien
+				los ingredientes y que la carne pille todo el sabor. Lo tapamos todo
+				con un trapo o la tapadera del bol para que la nevera no pille olores y
+				lo dejamos reposando en la nevera durante un día entero.
+			</paso>
+			<paso accion="Calentar aceite" orden="5">
+				Calentamos una sartén con un poco de aceite de oliva virgen extra (un
+				dedo de aceite es más que suficiente). Lo mejor es que sea de esas
+				sartenes de hierro en las que todo se agarra bien a la superficie, es
+				decir, la peor sartén que tengamos en casa, pues así el ajo y el resto
+				de adobo llegará a caramelizar, con una sartén antiadherente no se
+				consigue igual.
+			</paso>
+			<paso accion="Freir carne" orden="6">
+				Cuando el aceite esté caliente echamos la carne previamente escurrida
+				de líquido (sobre todo por el vino blanco, este líquido lo guardamos en
+				un vaso pues lo vamos a emplear después) y freímos a fuego alto durante
+				5 minutos. La carne tiene que pillar un color tostado, en esos cuatro o
+				cinco minutos no llega a hacerse por dentro, es ahí cuando añadimos el
+				líquido del adobo que tenemos reservado y dejamos que reduzca a fuego
+				alto durante otros 5 minutos. Una vez que la salsa esté un poco ligada,
+				es decir más espesa, retiramos del fuego y dejamos que repose.
+			</paso>
+			<paso accion="Preparar patatas" orden="7">
+				Ya veis que la preparación en total son 10 minutos, que es justo lo que
+				necesitamos para hacer nuestros cachelos o patatas cocidas. Muchos me
+				preguntáis por mail donde comprar los famosos cachelos, y es que no se
+				compran pues no es un tipo de patata gallega sino una forma de
+				cocinarla. En Galicia antiguamente se solía cocer la patata con su piel
+				en cachos, normalmente a la mitad y se echaba a la cazuela con un poco
+				de sal. Ahora la gente suele pelar las patatas aunque a mí encantan con
+				la piel, así que en casa siempre se comen con ella, al que no le guste
+				que se la quite, probadlas así, ya veréis que buenas.
+			</paso>
+			<paso accion="Cocer patatas" orden="8">
+				Para el que no sepa preparar patatas cocidas es sumamente sencillo.
+				Añadimos las patatas enteras con o sin piel (como gustéis) a cocer en
+				una cazuela grande con agua y sal. Las cocemos durante 15-20 minutos,
+				depende de la patata y del tipo de cocina de tengamos, vamos probando
+				que queden tiernas sin que lleguen a romperse, pinchandolas de vez en
+				cuando con un tenedor. Cuando veamos que ya están las escurrimos y
+				retiramos a una fuente.
+			</paso>
+		</pasos>
+	</receta>
+
+	<receta dificultad="Baja" id="receta-2" personas="4" tiempo="15">
+		<titulo>Tostas de boletus edulis y cebolla caramelizada</titulo>
+		<descripcion><![CDATA[
+				Esta semana ha sido grandiosa para todos aquellos amantes de las setas,
+				mucha lluvia y un tiempo fresco pero sin heladas han llenado todo el
+				campo de uno de los productos más ricos del otoño: los Boletus. Llevo
+				varias semanas preparando platos con este delicado y sabroso hongo que
+				iré publicando en el blog. De todas las recetas me quedo con una en
+				especial por su simplicidad y sabor: una sencilla tosta de pan
+				crujiente con un pequeño manto de cebolla caramelizada que le va genial
+				al toque suave a avellanas que nos da el Boletus Edulis.
+				Después de un año 2011 sin casi setas, este 2012 está siendo increíble. Os
+				animo a que os vayáis a dar una vuelta por el bosque o el campo, pues
+				aún no ha acabado la temporada y este otoño va a ser para recordar. Los
+				que somos aficionados tenemos que aprovechar e intentar hacernos con
+				los mejores ejemplares, para trasladar a nuestras casas una cocina de
+				temporada. Encarna y Evelio se están portando como los mejores
+				embajadores de este mundillo micológico y todas las semanas me traen
+				algún ejemplar de la sierra de Madrid, ayer recogieron casi cuatro
+				kilos de níscalos, así que ya sabéis que toca esta semana en mi cocina.
+				Para aquellos que no estéis familiarizados con el Boletus edulis os
+				diré que su uso en cocina siempre es sinónimo de éxito gracias a su
+				sabor y textura. Pero sobre todo porque es una seta sin complicaciones,
+				fácil de reconocer y que no despierta dudas sobre si será comestible o
+				no. El nombre de Boletus viene del latín y significa simplemente seta,
+				cualquier seta, en Cataluña a las setas se le llaman bolets, e ir a
+				buscar setas es ir a caçar bolets. Así que Boletus edulis significa,
+				sencillamente, seta comestible. Hasta hace bien poco las setas eran más
+				apreciadas en Cataluña, País Vasco y la zona de Soria que en el resto
+				de España, en estas regiones tienen una mayor tradición, tanto en
+				conocimiento como en protección de la mismas. Recientemente se ha
+				empezado a perder el miedo al mundo de las setas, un mayor conocimiento
+				y más información, con cursos y salidas al monte, han hecho de esta
+				afición un mundo lleno de buenas experiencias, como por ejemplo esta
+				tosta, impresionante con una cervecita artesana ¡qué la disfrutéis!
+		]]></descripcion>
+		<ingredientes>
+			<ingrediente cantidad="4" medida="unidades" nombre="Boletus Edulis"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="Cebolla"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="Pan para hacer tostas"/>
+			<ingrediente cantidad="100" medida="ml" nombre="Aceite de oliva virgen"/>
+			<ingrediente cantidad="1" medida="pizca" nombre="Sal maldon"/>
+			<ingrediente cantidad="1" medida="pizca" nombre="Sal fina"/>
+			<ingrediente cantidad="3" medida="g" nombre="Bicarbonato"/>
+		</ingredientes>
+		<pasos>
+			<paso accion="Caramelizar cebolla" orden="1">
+				Usaremos muy poquito bicarbonato, sólo la puntita de un cuchillo (unos
+				2 gramos por cada cebolla que vayamos a caramelizar). Ponemos una
+				sartén al fuego con un chorrito de aceite de oliva virgen extra, la
+				cebolla cortada en aros, una pizca de sal (5 gramos de sal por cebolla)
+				y el bicarbonato. Lo hacemos a fuego alto y veremos como la cebolla
+				amarillea enseguida, en 5 minutos la cebolla ha soltado su propio jugo
+				que se hará en el aceite, bajamos el fuego a la mitad y cocinamos la
+				cebolla durante otros 5 minutos hasta que conseguimos el punto deseado.
+				En el caso de esta tosta que esté brillante y amarilla, no queremos que
+				nos quede muy oscura.
+			</paso>
+			<paso accion="Limpiar los Boletus" orden="2">
+				Lo primero que haremos será pelar un poco el tronco, si después de
+				rasparlos aún tienen tierra en la parte inferior (les queda tierra por
+				dentro) se la limpiaremos. Si están sanos ya habremos acabado, si no
+				les retiraremos la partes blandas o con mucho hueco, las partes feas o
+				insanas. Seguidamente si vemos que el sombrero del boletus trae una
+				pequeña esponja de color amarillo, se la quitaríamos, si está blanca ya
+				sería comestible. En mi caso venían perfectos para empezar a cocinar,
+				gracias a Encarna. Si no tenéis oportunidad de conseguir boletus en el
+				campo os aconsejo los de la tienda de Petrás, especialistas en setas,
+				me mandaron una pequeña cesta y la verdad es que son de una gran
+				calidad.
+			</paso>
+			<paso accion="Cortar y sofreír los Boletus" orden="3">
+				Lo más sencillo para que nos queden de una forma uniforme al cortarlos
+				es realizar un corte horizontal en la base y vamos laminando. Mientras
+				tanto en una sartén sofreímos unas láminas de ajo con un poco de
+				aceite, en cuanto el ajo pille un tono dorado añadimos las láminas de
+				boletus y una pizca de sal.
+			</paso>
+			<paso accion="Tostar pan" orden="4">
+				Sofreímos hasta que la seta tenga elasticidad y un ligero tono
+				avellana. Retiramos las setas y tostamos el pan, mi consejo es que lo
+				hagáis en la propia sartén donde hebéis hecho los boletus, así cogerá
+				todo el sabor a setas y ajito.
+			</paso>
+			<paso accion="Montar las tostas" orden="5">
+				Para el montaje simplemente colocamos sobre la tosta un poco de cebolla
+				caramelizada que tenemos reservada y los boletus encima, espolvoreamos
+				con unos cristales de sal Maldon y a comer… ¡de rechupete, os lo
+				aseguro!
+			</paso>
+		</pasos>
+	</receta>
+
+	<receta id="receta-3" dificultad="Dificil" personas="4" tiempo="40">
+		<titulo>
+			Albóndigas de salmón y langostinos con timbal de patata gallega
+		</titulo>
+		<descripcion><![CDATA[
+				¿Qué os parece la receta de hoy? Fácil y llena de todo el sabor a mar que
+				nos trae el marisco y un salmón que le va a dar consistencia a la
+				receta, en un formato que no dejará indiferente a los niños y que puede
+				servir tanto de plato de diario como para esos días especiales que se
+				acercan próximamente. Hace unos meses os presentaba una receta parecida
+				de origen sueco: las hamburguesas de salmón o Laxwallenbergare de la
+				amiga Myriam. Allí el salmón es el ingrediente rey y hay varios platos
+				muy populares, uno de ellos es gravlax, elaborado a partir de salmón
+				fresco marinado con eneldo, azúcar, sal y pimienta blanca. Es una
+				preparación suculenta y deliciosa, la de la receta de hoy es igual de
+				sencilla pero un poco más lucida, y si la acompañamos con este timbal
+				de patata gallega además le damos un toque de mi tierra.
+				El ingrediente principal de este plato es el salmón, un pescado azul o
+				graso que aporta unos 11 gramos de grasa por cada 100 gramos de
+				carne. En cuanto a vitaminas, destaca la presencia de algunas
+				pertenecientes al grupo B. Además la riqueza en grasa del salmón hace
+				que contenga cantidades importantes de algunas vitaminas liposolubles
+				como la A y la D. Es fuente de magnesio y yodo, y su contenido medio
+				de hierro es inferior al de la mayoría de los pescados. Debe ser un
+				alimento esencial en nuestra dieta, ya que es cardiosaludable debido a
+				su alto contenido en grasas monoinsaturadas y poliinsaturadas, que
+				ayudan a aumentar los niveles de colesterol
+				"bueno" y bajan los del malo.
+				Contiene los famosos ácidos grasos omega-3, que en tantos alimentos están
+				intentando introducir de manera artificial. Yo pienso que para
+				disfrutar de las bondades del omega-3 debemos buscarlo sobre todo en
+				el pescado azul, en este salmón, en las sardinas, atún, jurel, bonito
+				del norte. Estos ácidos reducen el riesgo de padecer
+				enfermedades cardiovasculares, favorecen la salud del sistema nervioso
+				y fortalecen el sistema inmune. Así que estas albóndigas son fuente de
+				salud además de estar de rechupete, no lo dudéis, serán perfectas para
+				comer un poquito mejor en casa.
+		]]></descripcion>
+		<ingredientes>
+			<ingrediente cantidad="4" medida="unidades" nombre="rodajas de salmón (200 gr cada una)"/>
+			<ingrediente cantidad="300" medida="g" nombre="langostinos frescos"/>
+			<ingrediente cantidad="2" medida="unidades" nombre="rebanadas de pan de molde (sin corteza)"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="huevo"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="cebolla mediana"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="diente de ajo grande"/>
+			<ingrediente cantidad="150" medida="g" nombre="pan rallado"/>
+			<ingrediente cantidad="1" medida="cuchara" nombre="perejil picado y fresco"/>
+			<ingrediente cantidad="100" medida="g" nombre="harina de trigo"/>
+			<ingrediente cantidad="150" medida="ml" nombre="aceite de oliva virgen extra"/>
+			<ingrediente cantidad="2" medida="unidades" nombre="hojas de laurel y sal (al gusto)"/>
+			<ingrediente cantidad="6" medida="unidades" nombre="patatas gallegas medianas"/>
+		</ingredientes>
+		<pasos>
+			<paso accion="Pelar langostinos" orden="1">
+				Para esta receta podéis elegir los que más os gusten pero os recomiendo que sean langostinos frescos. Si los compráis congelados, dejad que se descongelen bien el día antes en la nevera para poder manipularlos al día siguiente. Los pelamos, quitamos la cabeza y la cáscara que los protege.
+			</paso>
+			<paso accion="Cocer cabezas de langostinos" orden="2">
+				Ponemos una cazuela ancha con agua bien caliente y dos hojas de laurel y echamos cabezas y cáscara de los langostinos para cocer a fuego medio durante diez minutos. Mientras cocemos las cabezas vamos a preparar el salmón y luego vamos a seguir con este maravilloso caldo.
+			</paso>
+			<paso accion="Reservar colas de langostinos" orden="3">
+				Una vez que tenemos langostinos ya pelados les quitamos el intestino (el hilo negro que tiene en el centro) y reservamos las colas.
+			</paso>
+			<paso accion="Limpiar salmón" orden="4">
+				Comenzamos por desmenuzar el salmón, le quitamos la piel y las pocas espinas que trae.
+			</paso>
+			<paso accion="Preparar caldo de pescado y marisco" orden="5">
+				En la cazuela anterior con el caldo de marisco, añadimos las espinas y algunos trocitos sobrantes de salmón. Ponemos a hervir y cuando comiencen los primeros borbotones bajamos a fuego medio. Dejamos que se cocine unos 20 minutos y vamos quitando la espuma que se va formando en la parte superior del agua.
+			</paso>
+			<paso accion="Picar salmón y langostinos" orden="6">
+				Picamos en trozos pequeños el salmón y los langostinos. En un bol desmenuzamos la miga de pan de molde y empapamos en leche, dejamos reposar. Echamos el salmón y langostinos a un bol grande donde mezclaremos los ingredientes. Añadimos el ajo bien picadito y el perejil, salamos y dejamos reposar unos minutos.
+			</paso>
+			<paso accion="Hacer masa de albóndigas" orden="7">
+				Echamos ahora en la mezcla el pan de molde bien escurrido y el huevo batido. Vamos mezclando y comprobamos la consistencia de nuestra masa. Vamos echando pan rallado poco a poco y mezclando hasta alcanzar una masa consistente que no se nos deshaga, dependiendo del tipo de pan rallado que utilicemos habrá que echar más o menos, recordad que sea de calidad.
+			</paso>
+			<paso accion="Dorar albóndigas" orden="8">
+				Prepararemos el resto de la receta en una cazuela baja, ponemos aceite de oliva virgen extra abundante a calentar. Hacemos unas bolas de masa de pescado o albóndigas que no sean muy grandes (tamaño pelota de golf) para que se hagan perfectamente por dentro. Pasamos por harina de trigo las albóndigas y freímos a fuego alto, vuelta y vuelta hasta que estén doraditas. Las vamos reservando sobre un papel de cocina absorbente.
+			</paso>
+			<paso accion="Cocinar a fuego medio" orden="9">
+				Picamos la cebolla y en el mismo aceite la pochamos durante unos 10 minutos a fuego medio. Una vez en su punto, incorporamos las albóndigas a la cazuela y añadimos el fumet o caldo de langostinos y salmón que antes habremos pasado por un colador, hasta que llegue a la mitad de las albóndigas. Dejamos cocinar a fuego medio durante 15 minutos para que vaya espesando la salsa. Le damos la vuelta a las albóndigas a mitad de cocción.
+			</paso>
+			<paso accion="Preparar patatas" orden="10">
+				Como acompañamiento he elegido unas patatas cocidas, como veis la preparación en total son 30 minutos, que es justo lo que necesitamos para hacer nuestros cachelos o patatas cocidas de manera perfecta. Muchos me preguntáis por mail dónde comprar los famosos cachelos, pero no es un tipo de patata gallega sino una forma de cocinarla.
+				En Galicia antiguamente se solía cocer la patata con su piel en cachos, normalmente a la mitad y se echaba a la cazuela con un poco de sal. Ahora la gente suele pelar las patatas aunque a mí encantan con la piel así que en casa siempre se comen con ella, probadlas y ya veréis que buenas.
+			</paso>
+			<paso accion="Presentar plato" orden="11">
+				Para el que no sepa preparar patatas cocidas es sumamente sencillo. Añadimos las patatas enteras con o sin piel (como gustéis) a cocer en una cazuela grande con agua y sal. Las cocemos durante 15-20 minutos, dependerá de la patata y del tipo de cocina que tengamos, así que vamos probando que queden tiernas sin que lleguen a romperse, pinchándolas de vez en cuando con un tenedor. Cuando veamos que ya están las escurrimos, retiramos a una fuente y luego machacamos con un tenedor, añadiendo un poquito de caldo de pescado y marisco para facilitar la labor.
+			</paso>
+			<paso accion="Paso" orden="12">
+				Presentamos en un plato bonito, nos ayudamos con un molde metálico y hacemos un cilindro de patata todo regado con salsa de las albóndigas.
+			</paso>
+		</pasos>
+	</receta>
+
+	<receta id="receta-4" dificultad="Baja" personas="4" tiempo="40">
+		<titulo>
+			Crema de calabaza y curry
+		</titulo>
+		<descripcion><![CDATA[
+				En esta época del año sin duda apetece tomarse un buen tazón de crema con
+				cualquiera de las verduras y hortalizas que tenemos en temporada, bien
+				calentita para entrar rápido en calor y sobre todo tomar esa cantidad
+				de vitaminas y minerales que necesita el cuerpo. Un caldito gallego,
+				unas sopas de ajo o las ya famosas en el blog: de cebolla, no están
+				nada mal pero más apasionante todavía es el amplio repertorio de pures
+				y cremas que podemos hacer, para combatir la llegada del frío os
+				propongo una crema sencilla de calabaza con un toque de curry y nuez
+				moscada que hará de vuestra cena en el sofá la mejor del mundo.
+				La temporada de otoño no es lo mismo sin la calabaza en la cocina. La
+				Cucurbita pepo es una planta anual de la familia de las Curcubitáceas,
+				cubierta de pelos rígidos, muy ásperos, que dan la sensación de que
+				pinchan. Se introdujo en Europa gracias al descubrimiento de América y
+				es originaria de Centroamérica y Sudamérica. Se suelen recolectar en
+				otoño, para disfrutar de su pulpa en esta misma estación y en la
+				invernal. Hay muchos tipos de ellas, la más común y consumida en
+				España es la que tiene la corteza verde (C. maxima), que es
+				precisamente la que me ha regalado la semana pasada Pablo Dachefsky,
+				directamente recogida de la huerta de Titulcia en Madrid. Era tan
+				grande que me ha dado para preparar varios platos: un pastel de
+				calabaza, unas codornices con calabaza, pera y manzana y la más
+				exitosa, la crema de calabaza, la receta de hoy.
+				En la cocina de otoño,
+				como bien dice Pablo, "no debemos olvidar el rito de la
+				cremas, es de los mejores del año". Además de estar
+				buena, ser original y muy fácil de preparar, es un plato para
+				cualquier día de la semana o incluso para un festivo con un toque
+				distinto, por ejemplo como la que os presenté para las anteriores
+				navidades sustituyendo el agua por un caldo de pescado y marisco. Ya
+				veréis como vais a repetir plato, ¡seguro!
+		]]></descripcion>
+		<ingredientes>
+			<ingrediente cantidad="600" medida="g" nombre="calabaza"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="puerro grande o dos pequeños"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="cebolla grande"/>
+			<ingrediente cantidad="2" medida="unidades" nombre="patatas gallegas"/>
+			<ingrediente cantidad="5" medida="unidades" nombre="zanahorias medianas"/>
+			<ingrediente cantidad="50" medida="ml" nombre="aceite de oliva virgen extra"/>
+			<ingrediente cantidad="40" medida="g" nombre="curry en polvo"/>
+			<ingrediente cantidad="20" medida="g" nombre="nuez moscada en polvo"/>
+			<ingrediente cantidad="1" medida="l" nombre="agua o caldo de verduras o ave"/>
+		</ingredientes>
+		<pasos>
+			<paso accion="Sofreír puerro y cebolla" orden="1">
+				Pelamos el puerro y troceamos en dos porque sólo vamos a emplear la parte blanca, si es demasiado pequeño o delgado, emplearemos dos. Lo echamos a una cazuela grande, como mi famosa cocotte de Le Creuset, con dos cucharadas de aceite de oliva virgen extra, ya veréis que no hace falta mucho aceite para que se poche. Del mismo modo pelamos la cebolla y cortamos en dados grandes, la añadimos directamente a la cazuela con el puerro, removemos y pochamos a fuego lento durante 5 minutos, hasta que se quede más o menos translúcida o transparente.
+			</paso>
+			<paso accion="Lavar verduras" orden="2">
+				Mientras tanto lavamos y pelamos la calabaza, las zanahorias y las patatas. Cortamos las patatas en trozos pequeños y las añadimos a la misma cazuela con el puerro y la cebolla, espolvoreamos con sal fina.
+			</paso>
+			<paso accion="Rehogar verduras" orden="3">
+				Las zanahorias las podemos cortar en trocitos muy pequeños o directamente desmenuzar en la picadora de la batidora, cuanto más pequeños sean los trozos, más rápido se va a hacer. Cortamos en rodajas la calabaza y nos quedamos con dos de ellas en reserva para luego preparar una pequeña guarnición que acompaña la crema. El resto de las rodajas las picamos muy bien o pasamos por la picadora de la batidora de la misma manera que las zanahorias. Echamos todo a la cazuela y removemos bien, rehogando durante 15 minutos a fuego medio. Añadimos un litro de agua (si queréis darle más sabor podéis emplear un caldito de verduras o ave) y dejamos cocer hasta que esté todo blando, unos veinte minutos a fuego medio-alto es suficiente.
+			</paso>
+			<paso accion="Añadir especias" orden="4">
+				Probamos de sal y si hace falta añadimos. Es hora de echar una cucharada de curry y media de nuez moscada, para darle un toque distinto y más exótico a vuestra crema. A mí me apasiona como queda de sabor, pero si nos os gusta olvidaos de este paso.
+			</paso>
+			<paso accion="Triturar" orden="5">
+				Trituramos con la batidora hasta conseguir una textura cremosa, una crema ligeramente espesa y ya la tenemos lista para servir bien caliente. Si la textura nos queda un poco gorda podemos añadirle un poco más de agua o leche entera.
+			</paso>
+			<paso accion="Cortar calabaza" orden="6">
+				Mientras reposa preparamos la guarnición, sólo tenemos que cortar la calabaza que tenemos reservada en Brunoise
+				 (una forma de cortar las verduras en pequeños dados de 1 a 2 mm de lado) sobre una tabla de cortar. Echamos todos los dados en un bol y añadimos curry en polvo, sal y nuez moscada. Ponemos una sartén a fuego medio con un buen chorrito de aceite de oliva virgen extra y echamos los pedazos de calabaza, vamos a pasarla durante 10 minutos hasta que obtengan un color dorado, naranja oscuro.
+			</paso>
+			<paso accion="Preparar plato" orden="7">
+				Elegimos un bonito plato hondo, añadimos una cucharada generosa de crema bien caliente, colocamos en el medio parte de los trocitos de calabaza pochadita y espolvoreamos con una pizca de sal maldon.
+			</paso>
+			<paso accion="Añadir picatostes" orden="8">
+				Otra opción es hacer picatostes, crutones o crotones de pan frito, incluso podéis darle un rico sabor a ajo (yo suelo tener en la nevera un bote de cristal con dientes de ajo y aceite de oliva virgen extra, ese aceite conserva los dientes de ajo y además queda aromatizado, truco del almendruco). Si os animáis con los picatostes, sólo hay que cortar las rebanadas de pan en cuadros pequeños o cubos más o menos iguales, y con un poco de aove en una sartén freímos hasta que estén dorados.
+			</paso>
+		</pasos>
+	</receta>
+
+	<receta id="receta-5" dificultad="Baja" personas="4" tiempo="5">
+		<titulo>
+			Navajas gallegas a la plancha con ajo y perejil
+		</titulo>
+		<descripcion><![CDATA[
+				No sé si habréis probado esta receta en algún lugar de Galicia, pero os
+				aseguro que es una de las más ricas que hay. Las mejores que probé
+				fueron en el restaurante de Pepe Solla, hechas al vapor y ligeramente
+				ahumadas sobre una salsa verde de Cebollino directamente del Mercado de
+				Abastos, un saber hacer de este crack de la cocina. Tenía ganas de
+				probar a cocinar navajas al vapor o a la plancha en casa, así que
+				cuando me sugirieron un envío desde la lonja del Grove, no dudé en
+				aceptar. Efectivamente la calidad de este marisco es impresionante, las
+				mariscadoras las clasifican por tamaños en las distintas cajas para la
+				subasta y en todo este proceso es tratado con “mimo” para que, una vez
+				que llegue a los compradores, se encuentre en condiciones excelentes de
+				frescura. Dicho y hecho, desde la nueva plataforma online de Pescados y
+				mariscos de O Grove, me llegaron unas navajas de hasta 15 cm de largo,
+				impresionantes, recién cogidas el día antes así que llegaron vivas a
+				casa. Calidad, tradición, sostenibilidad y por supuesto un precio
+				económico, que es tan importante estos días.
+				Este marisco con todo el sabor de la Ría de Arousa fue la estrella del
+				programa de Recetas de rechupete TV que desarrollo con Terra.es. Los
+				invitados quedaron flipando cuando vieron el tamaño, incluso las
+				medimos en directo, algún chiste salió del tema ¿verdad Georgina y
+				Guillermo?. Las navajas (Ensis Arcuatus) no las debemos confundir
+				con los "longueirones" o del
+				"muergo" que suelen ser más baratos y de
+				peor calidad, estas tienen una concha característica alargada
+				(hasta más de 15 cm de longitud) y ligeramente curvada, similar a una
+				navaja, de ahí su nombre. Los longueirones son completamente rectos y
+				algo más gruesos.
+				Este es un marisco que se puede consumir durante todo
+				el año pues no existe veda para esta especie, y es importante que os
+				fijéis que el tamaño mínimo debe ser de al menos 10 cm. Es una especie
+				muy frágil que aguanta poco tiempo fuera del agua pues sus valvas no
+				cierran herméticamente como las almejas, por lo que enseguida pierde
+				agua y se deshidrata. Así que según lleguen las debéis meter en agua
+				con sal y podréis hacer las mejores navajas de vuestra vida, ya lo
+				veréis.
+		]]></descripcion>
+		<ingredientes>
+			<ingrediente cantidad="1" medida="kg" nombre="navajas gallegas"/>
+			<ingrediente cantidad="100" medida="ml" nombre="aceite de oliva virgen extra"/>
+			<ingrediente cantidad="2" medida="unidades" nombre="dientes de ajo"/>
+			<ingrediente cantidad="1" medida="cuchara" nombre="colmada de perejil fresco y picado"/>
+			<ingrediente cantidad="1" medida="unidades" nombre="vaso de vino blanco"/>
+			<ingrediente cantidad="2" medida="unidades" nombre="hojas de laurel"/>
+		</ingredientes>
+		<pasos>
+			<paso accion="Desbabar navajas" orden="1">
+				 Las navajas que me enviaron estaban muy frescas, y la verdad es que traían muy poca arena de la Ría, pero es fundamental quitar bien esa arena que para que no sea molesta y no nos estropee la receta. Este proceso en Galicia se llama "desbabar", lo mejor es hacerlo en agua de mar pero aquí en Madrid no es fácil conseguirla, así que lo haremos en agua con abundante sal. 
+				 Víctor O Bandullo me recomendó que colocase las navajas en un recipiente redondo tipo botella de plástico o tupper redondeado y ponerlas como si fuesen lápices, llenarlas de agua con sal y dejarlas así durante un par de horas, de esta manera soltarán la arena de una manera más rápida y toda concentrada en el fondo del recipiente. Este consejo queda para la siguiente tanda que prepare en casa, como podéis ver en el programa yo las "desbabé" en un bol grande con abundante agua fría, un buen puñado de sal gruesa y cambiando tres veces el agua.
+			</paso>
+			<paso accion="Escurrir navajas" orden="2">
+				Sacamos las navajas y las escurrimos en papel absorbente o en un trapo de cocina de algodón, hasta que se retire un poco de agua. Reservamos.
+			</paso>
+			<paso accion="Preparar aliño" orden="3">
+				Pelamos y picamos los dientes de ajo, tienen que quedar muy picados. Cogemos un poco de perejil fresco, lo lavamos y escurrimos, lo cortamos lo más finamente posible, mezclamos con un poco de sal y aceite de oliva virgen extra y batimos con la batidora eléctrica hasta lograr una salsa homogénea. Reservamos.
+			</paso>
+			<paso accion="Freír navajas" orden="4">
+				Calentamos la plancha a alta temperatura, añadimos sal gorda y por encima unas gotas de aceite de oliva virgen extra justo donde vamos a poner las navajas con la carne tocando la plancha caliente. Las ponemos en la plancha, vuelta y vuelta un minuto, como máximo dos, pues si se tuestan mucho correremos el peligro de que nos queden chiclosas o duras, no queremos estropear este manjar.
+			</paso>
+			<paso accion="Aliñar navajas" orden="5">
+				Colocamos las navajas en una fuente con un buen trozo de pan gallego, tipo bolla, donde podamos empapar toda la miga en el caldito. Repartimos por encima una cucharadita de salsa o aliño que tenemos reservada, añadimos un poco de sal en escamas tipo Maldon y espolvoreamos si queremos con un poco más de perejil picado, esto es opcional y más bien como adorno. Servimos inmediatamente, simplemente gloriosas.
+			</paso>
+		</pasos>
+	</receta>
+</recetas>

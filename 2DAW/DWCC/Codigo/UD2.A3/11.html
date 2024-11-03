@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function esPrimo(n){
+            for (let i = 2; i < n; i++) {
+
+                if(n % i ==0){
+                    
+                    return false;
+
+                }
+                
+            }
+            return true;
+        }
+
+        n = window.prompt("Escribe cuantos primos quieres que muestre")
+        cont = 1;
+        i = 0;
+        sum = 0;
+        med = 0;
+        while(i<n){
+            if(esPrimo(cont)){
+
+                window.alert(cont);
+                cont++;
+                i++;
+                sum += cont;
+
+            }else{
+
+                cont++;
+
+            }
+        }
+        window.alert("Suma de primos: "+sum);
+        med = sum /i;
+        window.alert("Media de los primos: "+med)
+
+    </script>
+</body>
+</html>

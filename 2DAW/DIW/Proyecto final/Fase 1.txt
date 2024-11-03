@@ -1,0 +1,3 @@
+Fase 1: elección del proyecto web
+
+Mi proyecto web será un portafolio de programador que podré subir a una dirección web propia y enviar junto con mi currículum para que vean los proyectos que he realizado.

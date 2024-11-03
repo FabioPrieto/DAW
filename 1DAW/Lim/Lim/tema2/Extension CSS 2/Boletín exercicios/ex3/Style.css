@@ -1,0 +1,12 @@
+.centrar{
+    margin-top: 5px;
+    text-align:  center;
+}
+.boton{
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid black;
+}
+input:focus{
+    background-color: yellow;
+}

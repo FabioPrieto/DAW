@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vocabularios xmlns:t="territorio" xmlns:d="dinero" >
+<!-- la capital relativa al país y el capital relativo a su deuda -->
+  <pais t:capital="Madrid" d:capital="23000000"></pais>
+</vocabularios>
